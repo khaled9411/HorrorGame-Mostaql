@@ -231,10 +231,21 @@
                 {
                     "name": "",
                     "id": "8877e44d-2cf6-4b7f-bfde-a2d2295efc9a",
-                    "path": "<Keyboard>/ctrl",
+                    "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
+                    "action": "Crotch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d4cc3378-c527-4760-9ce8-a56573fd0c24",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "Crotch",
                     "isComposite": false,
                     "isPartOfComposite": false
