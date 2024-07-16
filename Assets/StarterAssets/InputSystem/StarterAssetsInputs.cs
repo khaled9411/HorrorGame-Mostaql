@@ -13,6 +13,12 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 		public bool crotch;
+        #region Refactoring
+        public bool flashLight;
+		public bool normalLight = true;
+		public bool uvLight;
+		public GameObject spot;
+        #endregion
 
         [Header("Movement Settings")]
 		public bool analogMovement;
@@ -87,6 +93,53 @@ namespace StarterAssets
 		{
 			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}
-	}
-	
+        #region Refacoring
+		//to refacor and add events
+        private void Update()
+        {
+            if(!flashLight && Input.GetKeyDown(KeyCode.E))
+			{
+				flashLight = true;
+                spot.SetActive(true);
+			}
+			else if(flashLight && Input.GetKeyDown(KeyCode.E))
+			{
+				flashLight = false;
+				spot.SetActive(false);
+			}
+
+			if(flashLight && Input.GetKeyDown(KeyCode.CapsLock))
+			{
+				if (normalLight)
+				{
+					UVLight();
+				}
+				else if (uvLight) 
+				{ 
+					NormalLight();
+				}
+			}
+        }
+
+        public void NormalLight()
+        {
+            normalLight = true;
+			uvLight = false;
+
+			spot.GetComponent<Light>().color = Color.white;
+        }
+
+		public void UVLight()
+		{
+            normalLight = false; 
+			uvLight = true;
+
+            spot.GetComponent<Light>().color = Color.magenta;
+
+        }
+        #endregion
+    }
+
+
+
 }
