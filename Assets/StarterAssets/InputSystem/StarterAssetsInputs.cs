@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -7,6 +8,8 @@ namespace StarterAssets
 {
 	public class StarterAssetsInputs : MonoBehaviour
 	{
+		public event EventHandler OnInteraction;
+
 		[Header("Character Input Values")]
 		public Vector2 move;
 		public Vector2 look;
@@ -27,8 +30,23 @@ namespace StarterAssets
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
+		private PlayerInteractions playerInteractions;
+
+        private void Awake()
+        {
+            playerInteractions = new PlayerInteractions();
+			playerInteractions.Player.Enable();
+
+            playerInteractions.Player.Interaction.performed += Interaction_performed;
+        }
+
+        private void Interaction_performed(InputAction.CallbackContext obj)
+        {
+			OnInteraction?.Invoke(this, EventArgs.Empty);
+        }
+
 #if ENABLE_INPUT_SYSTEM
-		public void OnMove(InputValue value)
+        public void OnMove(InputValue value)
 		{
 			MoveInput(value.Get<Vector2>());
 		}
