@@ -258,7 +258,7 @@
                 {
                     "name": "",
                     "id": "8877e44d-2cf6-4b7f-bfde-a2d2295efc9a",
-                    "path": "<Keyboard>/c",
+                    "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
