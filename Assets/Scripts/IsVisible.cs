@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class IsVisible : MonoBehaviour
 {
-    [SerializeField] private Item item;
+    private IInteractable item;
+
+    private void Start()
+    {
+        item = GetComponentInParent<IInteractable>();
+    }
 
     private void OnBecameVisible()
     {
-        item.isVisible = true;
+        item.SetIsVisibal(true);
     }
 
     private void OnBecameInvisible()
     {
-        item.isVisible = false;
+        item.SetIsVisibal(false);
     }
 }

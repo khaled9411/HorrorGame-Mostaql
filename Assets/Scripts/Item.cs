@@ -27,4 +27,9 @@ public class Item : MonoBehaviour, IInteractable
     {
         return isVisible;
     }
+
+    public void SetIsVisibal(bool visibal)
+    {
+        isVisible = visibal;
+    }
 }

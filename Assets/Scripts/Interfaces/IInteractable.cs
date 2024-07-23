@@ -8,4 +8,5 @@ public interface IInteractable
     string GetInteractText();
     Transform GetInteractTransform();
     bool IsVisibal();
+    void SetIsVisibal(bool visibal);
 }

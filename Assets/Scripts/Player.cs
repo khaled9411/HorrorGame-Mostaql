@@ -16,11 +16,10 @@ public class Player : MonoBehaviour
     }
 
     [SerializeField] private float interactRange = 4f;
-    // LayerMask to specify which layers to consider as obstacles
-    [SerializeField] private LayerMask obstacleLayer;
 
     StarterAssetsInputs inputs;
     private Vector3 lastInteractDir;
+    Camera mainCamera;
 
     private Item selectedItem;
 
@@ -35,6 +34,8 @@ public class Player : MonoBehaviour
         inputs = GetComponent<StarterAssetsInputs>();
 
         inputs.OnInteraction += Inputs_OnInteraction;
+
+        mainCamera = Camera.main;
     }
 
     // Update is called once per frame
@@ -69,23 +70,25 @@ public class Player : MonoBehaviour
         foreach (IInteractable interactable in interactables) 
         {
             
-            if (interactable.IsVisibal()/* && IsPathClear(transform , interactable.GetInteractTransform())*/)
+            if (interactable.IsVisibal())
             {
-                //RaycastHit hit;
-                //Physics.Raycast(transform.position, (interactable.GetInteractTransform().position - transform.position).normalized, out hit, interactRange);
-
-                if (closesItemInteractble == null)
+                RaycastHit hit;
+                if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, interactRange) 
+                    && hit.transform.TryGetComponent<IInteractable>(out IInteractable interactableItem))
                 {
-                    closesItemInteractble = interactable;
-                }
-                else
-                {
-                    if (Vector3.Distance(transform.position, interactable.GetInteractTransform().position) <
-                        Vector3.Distance(transform.position, closesItemInteractble.GetInteractTransform().position))
+                    if (closesItemInteractble == null)
                     {
-
-                        //closes
                         closesItemInteractble = interactable;
+                    }
+                    else
+                    {
+                        if (Vector3.Distance(transform.position, interactable.GetInteractTransform().position) <
+                            Vector3.Distance(transform.position, closesItemInteractble.GetInteractTransform().position))
+                        {
+
+                            //closes
+                            closesItemInteractble = interactable;
+                        }
                     }
                 }
             }
@@ -96,27 +99,6 @@ public class Player : MonoBehaviour
     }
 
 
-    ///// <summary>
-    ///// Checks if there is an obstacle between two objects.
-    ///// </summary>
-    ///// <param name="object1">The first object's Transform.</param>
-    ///// <param name="object2">The second object's Transform.</param>
-    ///// <returns>Returns true if there is no obstacle, false if there is an obstacle.</returns>
-    //public bool IsPathClear(Transform object1, Transform object2)
-    //{
-    //    Vector3 direction = object2.position - object1.position;
-    //    float distance = direction.magnitude;
-
-    //    // Perform the raycast
-    //    if (Physics.Raycast(object1.position, direction, distance, obstacleLayer))
-    //    {
-    //        // An obstacle was detected
-    //        return false;
-    //    }
-
-    //    // No obstacle was detected
-    //    return true;
-    //}
 
     void OnDrawGizmos()
     {
