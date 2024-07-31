@@ -35,6 +35,24 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FlashLight"",
+                    ""type"": ""Button"",
+                    ""id"": ""f17690d9-fb99-4b76-81ee-92cfbb081640"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FlashLitghtTypes"",
+                    ""type"": ""Button"",
+                    ""id"": ""60352fb8-0b35-4263-a9c9-dcb86e0b5918"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -48,6 +66,28 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
                     ""action"": ""Interaction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""70575e59-a71e-4174-add3-8a1314911f16"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FlashLight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dab7f4e5-3055-48ca-b0e4-3079deb923e2"",
+                    ""path"": ""<Keyboard>/capsLock"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FlashLitghtTypes"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -57,6 +97,8 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Interaction = m_Player.FindAction("Interaction", throwIfNotFound: true);
+        m_Player_FlashLight = m_Player.FindAction("FlashLight", throwIfNotFound: true);
+        m_Player_FlashLitghtTypes = m_Player.FindAction("FlashLitghtTypes", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -119,11 +161,15 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Interaction;
+    private readonly InputAction m_Player_FlashLight;
+    private readonly InputAction m_Player_FlashLitghtTypes;
     public struct PlayerActions
     {
         private @PlayerInteractions m_Wrapper;
         public PlayerActions(@PlayerInteractions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Interaction => m_Wrapper.m_Player_Interaction;
+        public InputAction @FlashLight => m_Wrapper.m_Player_FlashLight;
+        public InputAction @FlashLitghtTypes => m_Wrapper.m_Player_FlashLitghtTypes;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -136,6 +182,12 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
             @Interaction.started += instance.OnInteraction;
             @Interaction.performed += instance.OnInteraction;
             @Interaction.canceled += instance.OnInteraction;
+            @FlashLight.started += instance.OnFlashLight;
+            @FlashLight.performed += instance.OnFlashLight;
+            @FlashLight.canceled += instance.OnFlashLight;
+            @FlashLitghtTypes.started += instance.OnFlashLitghtTypes;
+            @FlashLitghtTypes.performed += instance.OnFlashLitghtTypes;
+            @FlashLitghtTypes.canceled += instance.OnFlashLitghtTypes;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -143,6 +195,12 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
             @Interaction.started -= instance.OnInteraction;
             @Interaction.performed -= instance.OnInteraction;
             @Interaction.canceled -= instance.OnInteraction;
+            @FlashLight.started -= instance.OnFlashLight;
+            @FlashLight.performed -= instance.OnFlashLight;
+            @FlashLight.canceled -= instance.OnFlashLight;
+            @FlashLitghtTypes.started -= instance.OnFlashLitghtTypes;
+            @FlashLitghtTypes.performed -= instance.OnFlashLitghtTypes;
+            @FlashLitghtTypes.canceled -= instance.OnFlashLitghtTypes;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -163,5 +221,7 @@ public partial class @PlayerInteractions: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         void OnInteraction(InputAction.CallbackContext context);
+        void OnFlashLight(InputAction.CallbackContext context);
+        void OnFlashLitghtTypes(InputAction.CallbackContext context);
     }
 }

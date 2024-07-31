@@ -10,6 +10,8 @@ namespace StarterAssets
 	public class StarterAssetsInputs : MonoBehaviour
 	{
 		public event EventHandler OnInteraction;
+		public event EventHandler onFlashLightTurn;
+		public event EventHandler onChanageFlashLightType;
 
 		[Header("Character Input Values")]
 		public Vector2 move;
@@ -17,12 +19,6 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 		public bool crotch;
-        #region Refactoring
-        public bool flashLight;
-		public bool normalLight = true;
-		public bool uvLight;
-		public GameObject spot;
-        #endregion
 
         [Header("Movement Settings")]
 		public bool analogMovement;
@@ -39,6 +35,18 @@ namespace StarterAssets
 			playerInteractions.Player.Enable();
 
             playerInteractions.Player.Interaction.performed += Interaction_performed;
+            playerInteractions.Player.FlashLight.performed += FlashLight_performed;
+            playerInteractions.Player.FlashLitghtTypes.performed += FlashLitghtTypes_performed;
+        }
+
+        private void FlashLitghtTypes_performed(InputAction.CallbackContext obj)
+        {
+            onChanageFlashLightType?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void FlashLight_performed(InputAction.CallbackContext obj)
+        {
+            onFlashLightTurn?.Invoke(this, EventArgs.Empty);
         }
 
         private void Interaction_performed(InputAction.CallbackContext obj)
@@ -112,51 +120,6 @@ namespace StarterAssets
 		{
 			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}
-        #region Refacoring
-		//to refacor and add events
-        private void Update()
-        {
-            if(!flashLight && Input.GetKeyDown(KeyCode.E))
-			{
-				flashLight = true;
-                spot.SetActive(true);
-			}
-			else if(flashLight && Input.GetKeyDown(KeyCode.E))
-			{
-				flashLight = false;
-				spot.SetActive(false);
-			}
-
-			if(flashLight && Input.GetKeyDown(KeyCode.CapsLock))
-			{
-				if (normalLight)
-				{
-					UVLight();
-				}
-				else if (uvLight) 
-				{ 
-					NormalLight();
-				}
-			}
-        }
-
-        public void NormalLight()
-        {
-            normalLight = true;
-			uvLight = false;
-
-			spot.GetComponent<Light>().color = Color.white;
-        }
-
-		public void UVLight()
-		{
-            normalLight = false; 
-			uvLight = true;
-
-            spot.GetComponent<Light>().color = Color.magenta;
-
-        }
-        #endregion
 
     }
 

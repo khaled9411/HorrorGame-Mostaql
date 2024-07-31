@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class SelectedItem : MonoBehaviour
 {
-    [SerializeField] private Item item;
+    private IInteractable item;
     [SerializeField] private GameObject visualGameObject;
 
     // Start is called before the first frame update
     void Start()
     {
+        item = GetComponentInParent<IInteractable>();
+
         Player.Instance.OnSelectedItemChanged += Player_OnSelectedItemChanged;
     }
 

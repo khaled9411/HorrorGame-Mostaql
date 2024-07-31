@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
         inputs = GetComponent<StarterAssetsInputs>();
 
         inputs.OnInteraction += Inputs_OnInteraction;
-
+        
         mainCamera = Camera.main;
     }
 
@@ -97,7 +97,6 @@ public class Player : MonoBehaviour
         }
         return closesItemInteractble;
     }
-
 
 
     void OnDrawGizmos()
