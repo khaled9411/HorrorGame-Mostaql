@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     private Vector3 lastInteractDir;
     Camera mainCamera;
 
-    private Item selectedItem;
+    private IInteractable selectedItem;
 
     private void Awake()
     {
