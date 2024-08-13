@@ -323,6 +323,8 @@ MonoBehaviour:
       Text: 'IF YOU ARE READING THIS
 
         DON''T LOOK BEHIND YOU'
+    - Key: puzzle.frist
+      Text: The first Paper in the game and the first puzzle about the game's story.
   - Section: inventory
     Localizations:
     - Key: context.use
