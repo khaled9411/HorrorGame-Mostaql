@@ -71,63 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 ProjectSettings/ProjectVersion.txt
-Assets/ThunderWire Studio/UHFPS/Content/Art.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Candle Flame NoBillboard.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Candle Flame NoBillboard.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Candle Flame YBillboard.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Candle Flame YBillboard.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Candle Flame.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Candle Flame.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Lantern Flame.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Lantern Flame.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Lighter Flame.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Candle/Lighter Flame.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Default.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Default.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Default_Grey.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Default_Grey.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels/Firefly.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels/Firefly.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels/Spark Emissive.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels/Spark Emissive.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels/Spark.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Materials/Particels/Spark.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials/Hands.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials/Hands.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials/Hands_Nails.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials/Hands_Nails.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials/Jacket.mat
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandMaterials/Jacket.mat.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/Hands.fbx
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/Hands.fbx.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_AO.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_AO.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_Diffuse.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_Diffuse.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_Normal.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_Normal.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_Roughness.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Arm/Hands_Roughness.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_AO.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_AO.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Diffuse.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Diffuse.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Height.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Height.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Metallic.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Metallic.png.meta
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Normal.png
-Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Jacket/Jacket_Normal.png.meta
 Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Nails.meta
 Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Nails/Nails_AO.png
 Assets/ThunderWire Studio/UHFPS/Content/Art/Models/Characters/Hero/HandTextures/Nails/Nails_AO.png.meta
