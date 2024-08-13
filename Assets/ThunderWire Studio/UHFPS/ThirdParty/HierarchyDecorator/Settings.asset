@@ -282,7 +282,7 @@ MonoBehaviour:
       colorOne: {r: 0.245, g: 0.245, b: 0.245, a: 1}
       colorTwo: {r: 0.225, g: 0.225, b: 0.225, a: 1}
   components:
-    enableIcons: 1
+    enableIcons: 0
     showMissingScriptWarning: 1
     showAll: 1
     stackMonoBehaviours: 0
@@ -6077,7 +6077,7 @@ MonoBehaviour:
           m_Text: Transform
           m_Image: {fileID: 148978298399363526, guid: 0000000000000000d000000000000000, type: 0}
           m_Tooltip: Transform
-        shown: 0
+        shown: 1
         isBuiltIn: 1
         script: {fileID: 0}
       - displayName: Tree
@@ -9217,7 +9217,7 @@ MonoBehaviour:
           m_Text: Transform
           m_Image: {fileID: 148978298399363526, guid: 0000000000000000d000000000000000, type: 0}
           m_Tooltip: Transform
-        shown: 1
+        shown: 0
         isBuiltIn: 1
         script: {fileID: 0}
       - displayName: Tree
