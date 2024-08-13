@@ -282,10 +282,10 @@ MonoBehaviour:
       colorOne: {r: 0.245, g: 0.245, b: 0.245, a: 1}
       colorTwo: {r: 0.225, g: 0.225, b: 0.225, a: 1}
   components:
-    enableIcons: 0
+    enableIcons: 1
     showMissingScriptWarning: 1
     showAll: 1
-    stackMonoBehaviours: 0
+    stackMonoBehaviours: 1
     unityGroups:
     - name: Animation
       components:
@@ -3617,6 +3617,26 @@ MonoBehaviour:
         shown: 0
         isBuiltIn: 0
         script: {fileID: 11500000, guid: 71c2cfaccfa80f343807a0be42c701ba, type: 3}
+      - displayName: DialogueSystem
+        name: UHFPS.Runtime.DialogueSystem, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        content:
+          m_Text: DialogueSystem
+          m_Image: {fileID: -8204150473280056172, guid: 0000000000000000d000000000000000, type: 0}
+          m_Tooltip: DialogueSystem
+        shown: 0
+        isBuiltIn: 0
+        script: {fileID: 11500000, guid: 4876fa0513a9d7d41a703a6508cd3a14, type: 3}
+      - displayName: PuzzleExamine
+        name: UHFPS.Runtime.PuzzleExamine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        content:
+          m_Text: PuzzleExamine
+          m_Image: {fileID: -8204150473280056172, guid: 0000000000000000d000000000000000, type: 0}
+          m_Tooltip: PuzzleExamine
+        shown: 0
+        isBuiltIn: 0
+        script: {fileID: 11500000, guid: 9d017f81ceb378c4b9d7c43ff8377718, type: 3}
     excludedComponents:
       name: Excluded
       components:
@@ -9217,7 +9237,7 @@ MonoBehaviour:
           m_Text: Transform
           m_Image: {fileID: 148978298399363526, guid: 0000000000000000d000000000000000, type: 0}
           m_Tooltip: Transform
-        shown: 0
+        shown: 1
         isBuiltIn: 1
         script: {fileID: 0}
       - displayName: Tree
