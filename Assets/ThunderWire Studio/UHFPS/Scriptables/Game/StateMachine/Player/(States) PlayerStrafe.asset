@@ -120,13 +120,13 @@ MonoBehaviour:
   - stateAsset: {fileID: -5875970328235571646}
     isEnabled: 1
   - stateAsset: {fileID: -7126588196890882439}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: 168121009931680893}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: -6135597883646026547}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: 7815937591920540382}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: 2661364000807776837}
     isEnabled: 1
   - stateAsset: {fileID: 7339526265045310608}

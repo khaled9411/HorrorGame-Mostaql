@@ -115,13 +115,13 @@ MonoBehaviour:
   - stateAsset: {fileID: 5317404476196027615}
     isEnabled: 1
   - stateAsset: {fileID: -7187678247991363468}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: -1972307249272395086}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: 6765447900060016093}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: 959416535218894860}
-    isEnabled: 1
+    isEnabled: 0
   - stateAsset: {fileID: 7554897181884122306}
     isEnabled: 1
   - stateAsset: {fileID: -8521706686895293519}
