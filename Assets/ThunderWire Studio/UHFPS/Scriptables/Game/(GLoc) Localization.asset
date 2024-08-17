@@ -65,6 +65,8 @@ MonoBehaviour:
       Text: New Game
     - Key: button.loadgame
       Text: Load Game
+    - Key: button.returntolastchickpoint
+      Text: Load Last Chickpoint
     - Key: button.savegame
       Text: Save Game
     - Key: button.options
@@ -81,12 +83,12 @@ MonoBehaviour:
       Text: Apply
     - Key: tooltip.continue
       Text: Resume your saved progress
-    - Key: tooltip.resume
-      Text: Continue playing game
     - Key: tooltip.newgame
       Text: Start a new game
     - Key: tooltip.loadgame
       Text: Load a previously saved games
+    - Key: tooltip.returntolastchickpoint
+      Text: Return To Last Chickpoint
     - Key: tooltip.savegame
       Text: Save your current progress
     - Key: tooltip.options

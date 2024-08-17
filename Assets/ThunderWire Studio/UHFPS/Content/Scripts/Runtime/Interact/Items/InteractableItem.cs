@@ -80,6 +80,7 @@ namespace UHFPS.Runtime
         public SoundClip ExamineHintSound;
 
         public UnityEvent OnTakeEvent;
+        public UnityEvent AfterTakeEvent;
         public UnityEvent OnExamineStartEvent;
         public UnityEvent OnExamineEndEvent;
 
@@ -146,6 +147,8 @@ namespace UHFPS.Runtime
 
             if (DisableType != DisableTypeEnum.None)
                 EnabledState(false);
+
+            AfterTakeEvent?.Invoke();
         }
 
         /// <summary>

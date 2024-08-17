@@ -185,8 +185,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   PickupSound:
-    audioClip: {fileID: 0}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 00f3f82227f7f0045b00e3de46939013, type: 3}
+    volume: 0.6
   ExamineSound:
     audioClip: {fileID: 8300000, guid: 338b2acf7b25a7f48b8131347f193629, type: 3}
     volume: 0.6
@@ -194,6 +194,9 @@ MonoBehaviour:
     audioClip: {fileID: 0}
     volume: 0
   OnTakeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AfterTakeEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
