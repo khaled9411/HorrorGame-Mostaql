@@ -1,0 +1,207 @@
+{
+  "id": "0056540f33e6424ba780a2af26713e66",
+  "playerData": {
+    "position": {
+      "x": 43.5005646,
+      "y": 0.7179997,
+      "z": 48.96818
+    },
+    "rotation": {
+      "x": 155.2,
+      "y": -58.3999634
+    },
+    "localData": {
+      "health": 100,
+      "selectedItem": -1,
+      "playerItems": {
+        "playerItem_0": {
+          "recordingTime": 0,
+          "batteryEnergy": 100.0,
+          "nightVision": false
+        },
+        "playerItem_1": {},
+        "playerItem_2": {},
+        "playerItem_3": {
+          "flashlightAttached": false
+        },
+        "playerItem_4": {
+          "batteryEnergy": 320.0
+        },
+        "playerItem_5": {
+          "currentFuel": 60.0
+        },
+        "playerItem_6": {},
+        "playerItem_7": {},
+        "playerItem_8": {
+          "baseTemp": 23.0
+        },
+        "playerItem_9": {}
+      }
+    },
+    "globalData": {
+      "inventory": {
+        "expanded": 0,
+        "items": {
+          "item_0": {
+            "item": "cfae8f669c8a413b9b443044799299f8",
+            "quantity": 1,
+            "orientation": 0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "customData": {}
+          }
+        },
+        "shortcuts": {
+          "shortcut_0": "{}",
+          "shortcut_1": "{}",
+          "shortcut_2": "{}",
+          "shortcut_3": "{}"
+        }
+      },
+      "objectives": {}
+    }
+  },
+  "worldState": {
+    "worldSaveables": {
+      "InteractableItem.656a11d3df278ef4abe808661804fae7": {
+        "position": {
+          "x": 43.746,
+          "y": 1.869,
+          "z": 48.444
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "InteractableItem.f1dbc39b706a5d74e821fb7eb9d97d89": {
+        "position": {
+          "x": -0.77,
+          "y": 0.89,
+          "z": 0.423
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": false,
+        "customData": {
+          "level": "red"
+        }
+      },
+      "HintTrigger.ba33d47ca5d22ed4f840b46783ab8344": {
+        "isTriggered": false,
+        "isEventCalled": false
+      },
+      "KeycardPuzzle.22a9ec54e214efc4c95312992d721df9": {
+        "accessGranted": false
+      },
+      "DynamicObject.01af6800de13de3499f4f1362d3d8bff": {
+        "rotation": {
+          "x": 1.00179141E-05,
+          "y": 90.00001,
+          "z": 1.22133293E-12
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": true
+      },
+      "DynamicObject.c1850da7aae658147b8a009b28a8957e": {
+        "rotation": {
+          "x": 1.00179141E-05,
+          "y": 90.00001,
+          "z": 1.22133293E-12
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": true
+      },
+      "KeypadPuzzle.e8fb73ba08eea4e4caed506219de2e4b": {
+        "accessGranted": false
+      },
+      "DynamicObject.3d1c80cf01cfd4f4d8361966d1bee305": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "isLocked": false
+      },
+      "SaveableObject.4e6e47b7695c86547b64e256c1336087": {
+        "position": {
+          "x": 49.7,
+          "y": 0.7180008,
+          "z": 73.89
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 0.0
+        }
+      },
+      "DynamicObject.47afb3fc4883b5b4e99168e8890fbb83": {
+        "rotation": {
+          "x": 8.14221737E-13,
+          "y": 1.36603767E-05,
+          "z": 2.42656664E-20
+        },
+        "targetAngle": -90.0,
+        "currentAngle": -90.0,
+        "openAngle": -90.0,
+        "isOpenSound": true,
+        "disableSounds": false,
+        "isOpened": true,
+        "isLocked": false
+      },
+      "InteractableItem.96714d9796baff74bb8e2d32dd58aa17": {
+        "position": {
+          "x": 0.08,
+          "y": 0.47,
+          "z": 0.546
+        },
+        "rotation": {
+          "x": 90.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "DynamicObject.6a4e2270fe211b544a490400f354ee81": {
+        "rotation": {
+          "x": 8.14221737E-13,
+          "y": 1.36603767E-05,
+          "z": 2.42656664E-20
+        },
+        "targetAngle": -90.0,
+        "currentAngle": -90.0,
+        "openAngle": -90.0,
+        "isOpenSound": true,
+        "disableSounds": false,
+        "isOpened": true,
+        "isLocked": false
+      }
+    },
+    "runtimeSaveables": {}
+  }
+}

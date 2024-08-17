@@ -325,6 +325,8 @@ MonoBehaviour:
         DON''T LOOK BEHIND YOU'
     - Key: puzzle.frist
       Text: The first Paper in the game and the first puzzle about the game's story.
+    - Key: puzzle.frist.hint
+      Text: You Should Solve This
   - Section: inventory
     Localizations:
     - Key: context.use

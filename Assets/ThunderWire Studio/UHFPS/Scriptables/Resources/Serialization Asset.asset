@@ -26,7 +26,7 @@ MonoBehaviour:
   SaveExtension: .bin
   EncryptionKey: 5d70983f87804999ba1568d49133deb8
   EncryptSaves: 0
-  CreateThumbnails: 1
+  CreateThumbnails: 0
   SingleSave: 1
   UseSceneNames: 0
   PreviousScenePersistency: 1
