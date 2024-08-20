@@ -135,7 +135,7 @@ MonoBehaviour:
       Name: Paper
       GUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
   ItemCustomData:
-    JsonData: 
+    JsonData: "{\r\n    \"solved\": false\r\n}\r"
   InteractTitle:
     GlocText: objects.paper
     NormalText: Paper
