@@ -11,6 +11,7 @@ public class CloseDoorWithTriger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         dynamicObject.SetCloseState();
+        dynamicObject.PlaySound(DynamicSoundType.Close);
         dynamicObject.TryUnlockResult(false);
     }
 }
