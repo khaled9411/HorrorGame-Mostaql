@@ -44,8 +44,8 @@ MonoBehaviour:
   AttackTrigger: Attack
   AttackState: Attack 01
   DamageRange:
-    min: 20
-    max: 40
+    min: 80
+    max: 150
 --- !u!114 &939958431482384129
 MonoBehaviour:
   m_ObjectHideFlags: 0

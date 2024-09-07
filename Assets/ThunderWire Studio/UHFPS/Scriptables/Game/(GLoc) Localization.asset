@@ -81,6 +81,8 @@ MonoBehaviour:
       Text: Back
     - Key: button.apply
       Text: Apply
+    - Key: tooltip.resume
+      Text: Back To The Game
     - Key: tooltip.continue
       Text: Resume your saved progress
     - Key: tooltip.newgame
