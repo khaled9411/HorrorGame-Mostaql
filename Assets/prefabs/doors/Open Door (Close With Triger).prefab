@@ -285,6 +285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_Animation
       objectReference: {fileID: 0}
+    - target: {fileID: 6016176208690492706, guid: a6bbe2517851da04a827ddfc6a44583c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8930708103258742167, guid: a6bbe2517851da04a827ddfc6a44583c,
         type: 3}
       propertyPath: m_LocalScale.x

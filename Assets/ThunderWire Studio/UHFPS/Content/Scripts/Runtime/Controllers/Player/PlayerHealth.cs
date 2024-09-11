@@ -190,5 +190,10 @@ namespace UHFPS.Runtime
             gameManager.PlayerPresence.PlayerManager.PlayerItems.DeactivateCurrentItem();
             targetBlood = 1f;
         }
+
+        public void ChangeHealth(int health)
+        {
+            OnApplyDamage(health);
+        }
     }
 }

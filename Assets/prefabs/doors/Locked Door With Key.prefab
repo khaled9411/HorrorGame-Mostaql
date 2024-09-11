@@ -96,6 +96,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DynamicDoor_Locked1
       objectReference: {fileID: 0}
+    - target: {fileID: 9004469128142271065, guid: 4fb145edbd6d57745a279d8d4a782c32,
+        type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -67,7 +67,7 @@ namespace UHFPS.Runtime
             _glocDictionary = CreateGlocDictionary();
         }
 
-        [ContextMenu("Test Language")]
+        [ContextMenu("ActiveAndDisactiveOnTrigger Language")]
         public void TestLanguage()
         {
             ChangeLanguage("");

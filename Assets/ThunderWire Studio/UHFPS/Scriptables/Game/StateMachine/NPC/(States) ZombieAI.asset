@@ -15,7 +15,7 @@ MonoBehaviour:
   Patrol: 1
   PatrolType: 1
   PatrolTime: 3
-  WalkSpeed: 0.5
+  WalkSpeed: 1.5
   PatrolStoppingDistance: 1
   VeryClosePlayerDetection: 3
 --- !u!114 &11400000
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a29b764a967434d8716e578793a178, type: 3}
   m_Name: Player Hide
   m_EditorClassIdentifier: 
-  SeePlayerDamage: 10
+  SeePlayerDamage: 100
   HidingCloseDistance: 2
   PatrolTime: 5
 --- !u!114 &8407762149507097960
@@ -73,10 +73,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10150eac725ec0e43ac5b8e14da2cfdd, type: 3}
   m_Name: Chase
   m_EditorClassIdentifier: 
-  RunSpeed: 3
+  RunSpeed: 6
   ChaseStoppingDistance: 1
-  LostPlayerPatrolTime: 5
-  LostPlayerPredictTime: 0.5
-  VeryClosePlayerDetection: 2
-  AttackFOV: 30
-  AttackDistance: 2
+  LostPlayerPatrolTime: 1
+  LostPlayerPredictTime: 1.5
+  VeryClosePlayerDetection: 0.5
+  AttackFOV: 60
+  AttackDistance: 3

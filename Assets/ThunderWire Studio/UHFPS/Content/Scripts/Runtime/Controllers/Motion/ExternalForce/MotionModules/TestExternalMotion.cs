@@ -16,7 +16,7 @@ namespace UHFPS.Runtime
         public TestSettings PositionSettings;
         public TestSettings RotationSettings;
 
-        public override string Name => "Test Motion";
+        public override string Name => "ActiveAndDisactiveOnTrigger Motion";
 
         public override ExternalMotionModule GetPosition => new TestForce(PositionSettings);
 
