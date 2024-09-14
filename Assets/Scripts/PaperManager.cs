@@ -4,17 +4,34 @@ using UnityEngine;
 using UHFPS.Tools;
 using ThunderWire.Attributes;
 using UHFPS.Runtime;
+using static UHFPS.Runtime.InventoryItem;
+using System;
 
 [InspectorHeader("Paper Manager")]
 public class PaperManager : MonoBehaviour
 {
+    public static PaperManager Instance;
+
+    public event EventHandler OnPaperStutesChange;
+
     public ItemGuid[] Papers;
 
     private Inventory inventory;
+
+
     // Start is called before the first frame update
     void Start()
     {
         inventory = Inventory.Instance;
+
+        OnPaperStutesChange?.Invoke(this, EventArgs.Empty);
+        //Debug.Log((bool)json["solved"]);
+    }
+
+
+    private void Awake()
+    {
+        Instance = this;
     }
 
     // Call when the solving Paper is taken
@@ -36,4 +53,28 @@ public class PaperManager : MonoBehaviour
 
         //Debug.Log((bool)json["solved"]);
     }
+
+    public void SetAllPapersSolvid()
+    {
+        foreach (var paper in Papers)
+        {
+            // get reference to the InventoryItem
+            var inventoryItem = inventory.GetInventoryItem(paper);
+            var itemData = inventoryItem.CustomData;
+
+            // get custom data using JObject
+            var json = itemData.GetJson();
+
+            // set the solved boolen to true
+            //Debug.Log((bool)json["solved"]);
+            json["solved"] = true;
+
+            // save json string
+            itemData.Update(json);
+
+            //Debug.Log((bool)json["solved"]);
+        }
+        OnPaperStutesChange?.Invoke(this, EventArgs.Empty);
+    }
 }
+

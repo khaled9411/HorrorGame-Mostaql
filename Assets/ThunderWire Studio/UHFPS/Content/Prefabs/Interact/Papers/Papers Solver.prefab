@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5358993326480678960
+--- !u!1 &1640095901704114499
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5973152410014512458}
-  - component: {fileID: 8722860561283955719}
-  - component: {fileID: 665075663145656834}
-  - component: {fileID: 3281998529375599092}
-  - component: {fileID: 5708969647394665394}
+  - component: {fileID: 6330902630989459798}
+  - component: {fileID: 8872199164748073932}
+  - component: {fileID: 3428248199539158519}
+  - component: {fileID: 2246788562422384521}
+  - component: {fileID: 1663228547663148621}
   m_Layer: 6
-  m_Name: Paper_01
+  m_Name: Papers Solver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5973152410014512458
+--- !u!4 &6330902630989459798
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358993326480678960}
+  m_GameObject: {fileID: 1640095901704114499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 1.479, y: -0.029999971, z: 0}
+  m_LocalPosition: {x: 41.56, y: 1.869, z: 48.444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
---- !u!33 &8722860561283955719
+--- !u!33 &8872199164748073932
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358993326480678960}
+  m_GameObject: {fileID: 1640095901704114499}
   m_Mesh: {fileID: 1686896354641793070, guid: 1cfb847210752d448a1edb59953f2324, type: 3}
---- !u!23 &665075663145656834
+--- !u!23 &3428248199539158519
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358993326480678960}
+  m_GameObject: {fileID: 1640095901704114499}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -85,13 +85,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3281998529375599092
+--- !u!65 &2246788562422384521
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358993326480678960}
+  m_GameObject: {fileID: 1640095901704114499}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -106,13 +106,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.20397629, y: 0.29320884, z: 0.023449568}
   m_Center: {x: 0.0000018663704, y: -0.00000004004241, z: 0.011700002}
---- !u!114 &5708969647394665394
+--- !u!114 &1663228547663148621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358993326480678960}
+  m_GameObject: {fileID: 1640095901704114499}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1193cc42578b51349ae91df02822e87c, type: 3}
@@ -126,18 +126,18 @@ MonoBehaviour:
   ExamineRotate: 3
   DisableType: 1
   PickupItem:
-    m_GUID: cfae8f669c8a413b9b443044799299f8
+    m_GUID: 9ac247c9c4914425a003c7a651d51367
     m_Item:
-      Name: Paper 01
-      GUID: cfae8f669c8a413b9b443044799299f8
-      Icon: {fileID: 2800000, guid: 64262e2b7b4ed8a458a9fb6247e3ab56, type: 3}
+      Name: Solver Paper
+      GUID: 9ac247c9c4914425a003c7a651d51367
+      Icon: {fileID: 2800000, guid: 62259f30e1155f642980abdc376dd7c3, type: 3}
     m_Section:
       Name: Paper
       GUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
   ItemCustomData:
-    JsonData: "{\r\n    \"solved\": false\r\n}\r"
+    JsonData: 
   InteractTitle:
-    GlocText: objects.paper
+    GlocText: '*Solving Paper'
     NormalText: Paper
   ExamineTitle:
     GlocText: 
@@ -151,7 +151,7 @@ MonoBehaviour:
 
       - From Patrick'
   HintMessage:
-    GlocText: papers.puzzle.frist.hint
+    GlocText: '*You Can Solving Paper By This'
     NormalText: 
   MessageTime: 3
   Quantity: 1
@@ -195,7 +195,19 @@ MonoBehaviour:
     volume: 0
   OnTakeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PaperManager, Assembly-CSharp
+        m_MethodName: SetAllPapersSolvid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   AfterTakeEvent:
     m_PersistentCalls:
       m_Calls:
