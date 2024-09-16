@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2246788562422384521}
   - component: {fileID: 1663228547663148621}
   m_Layer: 6
-  m_Name: Papers Solver
+  m_Name: Papers_Welcome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640095901704114499}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 41.56, y: 1.869, z: 48.444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &8872199164748073932
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51cae4daf6a6f294e8dd8b82b635e43b, type: 2}
+  - {fileID: 2100000, guid: 2df9181e74857564788d8838e774332d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,11 +120,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <UniqueID>k__BackingField:
     Id: 2b033d94ff76468ea583d7ff8296b94c
-  InteractableType: 1
+  InteractableType: 2
   MessageType: 1
   ExamineType: 1
   ExamineRotate: 3
-  DisableType: 1
+  DisableType: 0
   PickupItem:
     m_GUID: 9ac247c9c4914425a003c7a651d51367
     m_Item:
@@ -137,13 +137,13 @@ MonoBehaviour:
   ItemCustomData:
     JsonData: 
   InteractTitle:
-    GlocText: '*Solving Paper'
+    GlocText: objects.paper
     NormalText: Paper
   ExamineTitle:
     GlocText: 
     NormalText: 
   PaperText:
-    GlocText: papers.example
+    GlocText: papers.paper.text.welcome
     NormalText: 'This is an example text for a paper to demonstrate the examination
       system. You can display the text on the paper using a texture or rewrite the
       text as paper examination text.
@@ -151,7 +151,7 @@ MonoBehaviour:
 
       - From Patrick'
   HintMessage:
-    GlocText: '*You Can Solving Paper By This'
+    GlocText: papers.puzzle.frist.hint
     NormalText: 
   MessageTime: 3
   Quantity: 1
@@ -163,7 +163,7 @@ MonoBehaviour:
   ShowFloatingIcon: 0
   TakeFromExamine: 0
   AllowCursorExamine: 0
-  IsPaper: 0
+  IsPaper: 1
   AutoShortcut: 0
   AutoEquip: 0
   UseExamineZooming: 1

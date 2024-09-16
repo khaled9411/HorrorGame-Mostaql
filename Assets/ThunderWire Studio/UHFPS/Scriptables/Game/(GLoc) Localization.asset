@@ -242,6 +242,8 @@ MonoBehaviour:
       Text: Zipline
     - Key: paper
       Text: Paper
+    - Key: paper.story
+      Text: Story Paper
     - Key: chest
       Text: Chest
     - Key: lamp
@@ -331,6 +333,54 @@ MonoBehaviour:
       Text: The first Paper in the game and the first puzzle about the game's story.
     - Key: puzzle.frist.hint
       Text: You Should Solve This
+    - Key: paper.text.1
+      Text: "We are (two) brothers me and Timmy. We were playing in the forest together
+        and we always played there without any problems. But one day the sky was
+        cloudy and we were late to get home. But my brother Timmy was afraid of the
+        sound of thunder so he ran away from me and I kept calling him to come back
+        but he was afraid until we separated from each other. I was trying to catch
+        up with him until I found a cave so I went inside to see if Timmy had gone
+        in and I found a deep hole inside the cave and I looked into it and found
+        Timmy dead body.\nHe must not have noticed it because of\_fear\_and\_fell"
+    - Key: paper.text.2
+      Text: "I was alone in the forest during the storm until I found a house, so
+        I entered it and found a girl scared, terrified, trembling and crying. When
+        I approached her to understand what happened, she told me that my (one) brother
+        died. Follow me to find out what happened.\n When I followed her, she led
+        me to a cave and told me to look into the hole. I found the body of a child
+        and she threw me into the hole and ran away, but she did not know that I
+        was still alive, but I was about to die from hunger and thirst. No matter
+        how much I screamed, no one\_hears\_my\_voice."
+    - Key: paper.text.3
+      Text: "We were on a search patrol, Sheriff Shepard and I, looking for two missing
+        kids in the woods. Their names were Lima and Timmy. We found an abandoned
+        house, so we entered it\nWe were surprised to find a child. We asked him
+        about his name . He said, \u201CNo one has called me by my name for a long
+        time, but my name is Rick.\u201D He told us to come so he can introduce us
+        to his (three) friends. We went with him, We thought they were the missing
+        (two) kids. He made us enter the room, then he locked the door on us, laughed,
+        and ran away.\nOur weapons were useless against the door, and our radios
+        were broken. We spend (four) days in this house by now , and we cannot hold\_out\_any\_longer."
+    - Key: paper.text.4
+      Text: "I have been living alone in this house since my grandmother died. I
+        didn't know anyone and no one knew about our existence. I had no choice but
+        to stay in the house with my grandmother's rotting body and rob and steal
+        from whoever came to us. But now I'm not alone. I met the girl Lima. She
+        looks a bit like me. Her brother died a few days ago. I hosted her here in
+        the house, gave her food and a warm place. I made her kill this boy who visited
+        us a few days ago and made her throw him in the hole next to her brother.
+        Now I'm holding these two officers in the upstairs room. \nNow I have (five)
+        friends besides my grandmother.\nI'm\_not\_alone\_now."
+    - Key: paper.text.welcome
+      Text: "For those who step foot in this house. This is a warning message. There
+        are strange phenomena in the house and spirits of people and children who
+        have gone through painful stories. You must explore the stories and decode
+        the stories to escape from this house.\n All of this was because of this
+        cursed cave that I went to before I entered\_this\_house."
+    - Key: paper.hint.welcome
+      Text: You have to know the story of the house.
+    - Key: paper.hint.solver
+      Text: All encrypted papers have been decrypted.
   - Section: inventory
     Localizations:
     - Key: context.use

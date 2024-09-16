@@ -53,10 +53,13 @@ public class Paper : MonoBehaviour
         if ((bool)json["solved"])
         {
             gameObject.GetComponent<MeshRenderer>().material = paperMaterialAfterSolving;
+            gameObject.GetComponent<InteractableItem>().IsPaper = true;
+            gameObject.GetComponent<InteractableItem>().InteractableType = InteractableItem.InteractableTypeEnum.ExamineItem;
         }
         else
         {
             gameObject.GetComponent<MeshRenderer>().material = paperMaterialBeforeSolving;
+            gameObject.GetComponent<InteractableItem>().IsPaper = false;
         }
     }
 

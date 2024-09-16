@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5708969647394665394}
   - component: {fileID: -3123729744666534897}
   m_Layer: 6
-  m_Name: Paper_01
+  m_Name: Paper_To_Solve_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,13 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5358993326480678960}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.479, y: -0.029999971, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &8722860561283955719
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51cae4daf6a6f294e8dd8b82b635e43b, type: 2}
+  - {fileID: 2100000, guid: 809216b1f8394c34ab2d6e5f57f1719e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,11 +127,11 @@ MonoBehaviour:
   ExamineRotate: 3
   DisableType: 1
   PickupItem:
-    m_GUID: cfae8f669c8a413b9b443044799299f8
+    m_GUID: 3558e5e743f741ff9ee471694d0def50
     m_Item:
-      Name: Paper 01
-      GUID: cfae8f669c8a413b9b443044799299f8
-      Icon: {fileID: 2800000, guid: 64262e2b7b4ed8a458a9fb6247e3ab56, type: 3}
+      Name: Paper_To_Solve_4
+      GUID: 3558e5e743f741ff9ee471694d0def50
+      Icon: {fileID: 2800000, guid: eb3ceb73cd8a20c4ea5e82deb971466d, type: 3}
     m_Section:
       Name: Paper
       GUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
@@ -144,7 +144,7 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   PaperText:
-    GlocText: papers.example
+    GlocText: papers.paper.text.4
     NormalText: 'This is an example text for a paper to demonstrate the examination
       system. You can display the text on the paper using a texture or rewrite the
       text as paper examination text.
@@ -232,15 +232,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisItem:
-    m_GUID: cfae8f669c8a413b9b443044799299f8
+    m_GUID: 3558e5e743f741ff9ee471694d0def50
     m_Item:
-      Name: Paper 01
-      GUID: cfae8f669c8a413b9b443044799299f8
-      Icon: {fileID: 2800000, guid: 64262e2b7b4ed8a458a9fb6247e3ab56, type: 3}
+      Name: Paper_To_Solve_4
+      GUID: 3558e5e743f741ff9ee471694d0def50
+      Icon: {fileID: 2800000, guid: eb3ceb73cd8a20c4ea5e82deb971466d, type: 3}
     m_Section:
       Name: Paper
       GUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
-  paperMaterialBeforeSolving: {fileID: 2100000, guid: 51cae4daf6a6f294e8dd8b82b635e43b,
+  paperMaterialBeforeSolving: {fileID: 2100000, guid: 809216b1f8394c34ab2d6e5f57f1719e,
     type: 2}
-  paperMaterialAfterSolving: {fileID: 2100000, guid: 6d727e80f3c1478419859375b35d6dd6,
+  paperMaterialAfterSolving: {fileID: 2100000, guid: 43c47531d56e9e649ab9422313e720f0,
     type: 2}

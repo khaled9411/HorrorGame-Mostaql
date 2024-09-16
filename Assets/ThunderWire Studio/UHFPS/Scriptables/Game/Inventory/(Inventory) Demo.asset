@@ -1565,14 +1565,14 @@ MonoBehaviour:
     Items:
     - GUID: cfae8f669c8a413b9b443044799299f8
       SectionGUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
-      Title: Paper 01
+      Title: Paper_To_Solve_1
       Description: The first card in the game and the first puzzle about the game's
         story.
       Width: 1
       Height: 1
       Orientation: 0
       FlipDirection: 0
-      Icon: {fileID: 21300000, guid: 64262e2b7b4ed8a458a9fb6247e3ab56, type: 3}
+      Icon: {fileID: 21300000, guid: eb454bac64d741c49bffebe36bd76f86, type: 3}
       ItemObject:
         GUID: f356e2a48bfacbb409efd7380bf130e0
         Object: {fileID: 5358993326480678960, guid: f356e2a48bfacbb409efd7380bf130e0,
@@ -1605,23 +1605,23 @@ MonoBehaviour:
           GlocText: papers.puzzle.frist
           NormalText: The first Paper in the game and the first puzzle about the
             game's story.
-    - GUID: 9ac247c9c4914425a003c7a651d51367
+    - GUID: a8bd93fb4bf0436e9a235548bbe4a737
       SectionGUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
-      Title: Solver Paper
+      Title: Paper_To_Solve_2
       Description: 
       Width: 1
       Height: 1
       Orientation: 0
       FlipDirection: 0
-      Icon: {fileID: 21300000, guid: 62259f30e1155f642980abdc376dd7c3, type: 3}
+      Icon: {fileID: 21300000, guid: bf8e4c944bc89c04bb102a5c110ef125, type: 3}
       ItemObject:
-        GUID: d460eea6f5db640449b6aa2f34d43dac
-        Object: {fileID: 1640095901704114499, guid: d460eea6f5db640449b6aa2f34d43dac,
+        GUID: 2d06d006ad8b54b4689885d4b8c25cdf
+        Object: {fileID: 5358993326480678960, guid: 2d06d006ad8b54b4689885d4b8c25cdf,
           type: 3}
       Settings:
         isUsable: 0
         isStackable: 0
-        isExaminable: 0
+        isExaminable: 1
         isCombinable: 0
         isDroppable: 0
         isDiscardable: 0
@@ -1639,8 +1639,92 @@ MonoBehaviour:
       CombineSettings: []
       LocalizationSettings:
         titleKey:
-          GlocText: '*Paper Solver'
-          NormalText: 
+          GlocText: papers.puzzle.frist
+          NormalText: The first Paper in the game and the first puzzle about the
+            game's story.
         descriptionKey:
-          GlocText: '*You Can Solve All Paper By This'
-          NormalText: 
+          GlocText: papers.puzzle.frist
+          NormalText: The first Paper in the game and the first puzzle about the
+            game's story.
+    - GUID: fbf7d5f903cf48369107a58de568572d
+      SectionGUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
+      Title: Paper_To_Solve_3
+      Description: 
+      Width: 1
+      Height: 1
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 411c2119ff0b4fa4096cb6352bf6e692, type: 3}
+      ItemObject:
+        GUID: 28aee50d1913ce04eb0ab1c752542608
+        Object: {fileID: 5358993326480678960, guid: 28aee50d1913ce04eb0ab1c752542608,
+          type: 3}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 1
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 0
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          JsonData: 
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: papers.puzzle.frist
+          NormalText: The first Paper in the game and the first puzzle about the
+            game's story.
+        descriptionKey:
+          GlocText: papers.puzzle.frist
+          NormalText: The first Paper in the game and the first puzzle about the
+            game's story.
+    - GUID: 3558e5e743f741ff9ee471694d0def50
+      SectionGUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
+      Title: Paper_To_Solve_4
+      Description: 
+      Width: 1
+      Height: 1
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: eb3ceb73cd8a20c4ea5e82deb971466d, type: 3}
+      ItemObject:
+        GUID: 1d0b1c0b074ddae4aabc004a4f6012e6
+        Object: {fileID: 5358993326480678960, guid: 1d0b1c0b074ddae4aabc004a4f6012e6,
+          type: 3}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 1
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 0
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          JsonData: 
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: papers.puzzle.frist
+          NormalText: The first Paper in the game and the first puzzle about the
+            game's story.
+        descriptionKey:
+          GlocText: papers.puzzle.frist
+          NormalText: The first Paper in the game and the first puzzle about the
+            game's story.
