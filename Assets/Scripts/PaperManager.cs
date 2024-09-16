@@ -24,7 +24,7 @@ public class PaperManager : MonoBehaviour
     {
         inventory = Inventory.Instance;
 
-        OnPaperStutesChange?.Invoke(this, EventArgs.Empty);
+        //OnPaperStutesChange?.Invoke(this, EventArgs.Empty);
         //Debug.Log((bool)json["solved"]);
     }
 

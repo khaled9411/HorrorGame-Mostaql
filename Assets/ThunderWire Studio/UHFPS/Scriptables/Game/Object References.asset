@@ -14,8 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   References:
   - GUID: d1967a3246bd9e047b17fb288b68cccf
-    Object: {fileID: 3497057729131411850, guid: d1967a3246bd9e047b17fb288b68cccf, type: 3}
+    Object: {fileID: 3497057729131411850, guid: d1967a3246bd9e047b17fb288b68cccf,
+      type: 3}
   - GUID: 6c3b42d9375604c4dbd796f63544133e
-    Object: {fileID: 7243635044483938932, guid: 6c3b42d9375604c4dbd796f63544133e, type: 3}
+    Object: {fileID: 7243635044483938932, guid: 6c3b42d9375604c4dbd796f63544133e,
+      type: 3}
   - GUID: f356e2a48bfacbb409efd7380bf130e0
-    Object: {fileID: 5358993326480678960, guid: f356e2a48bfacbb409efd7380bf130e0, type: 3}
+    Object: {fileID: 5358993326480678960, guid: f356e2a48bfacbb409efd7380bf130e0,
+      type: 3}
+  - GUID: d460eea6f5db640449b6aa2f34d43dac
+    Object: {fileID: 1640095901704114499, guid: d460eea6f5db640449b6aa2f34d43dac,
+      type: 3}

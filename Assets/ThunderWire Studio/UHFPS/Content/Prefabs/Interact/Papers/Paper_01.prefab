@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 665075663145656834}
   - component: {fileID: 3281998529375599092}
   - component: {fileID: 5708969647394665394}
+  - component: {fileID: -3123729744666534897}
   m_Layer: 6
   m_Name: Paper_01
   m_TagString: Untagged
@@ -218,3 +219,28 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   IsExamined: 0
+--- !u!114 &-3123729744666534897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358993326480678960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1fa3956994ecb498dccb824938a1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisItem:
+    m_GUID: cfae8f669c8a413b9b443044799299f8
+    m_Item:
+      Name: Paper 01
+      GUID: cfae8f669c8a413b9b443044799299f8
+      Icon: {fileID: 2800000, guid: 64262e2b7b4ed8a458a9fb6247e3ab56, type: 3}
+    m_Section:
+      Name: Paper
+      GUID: 9acfc450a2264cc7aeb6e0e5582a0fe3
+  paperMaterialBeforeSolving: {fileID: 2100000, guid: 51cae4daf6a6f294e8dd8b82b635e43b,
+    type: 2}
+  paperMaterialAfterSolving: {fileID: 2100000, guid: 6d727e80f3c1478419859375b35d6dd6,
+    type: 2}
