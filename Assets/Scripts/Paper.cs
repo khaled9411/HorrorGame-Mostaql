@@ -12,13 +12,13 @@ public class Paper : MonoBehaviour
 
     private Inventory inventory;
 
-    private static bool canStart = false;
+
     // Start is called before the first frame update
     private void Start()
     {
         PaperManager.Instance.OnPaperStutesChange += PaperManager_OnPaperStutesChange;
 
-        if (!canStart)
+        if (!PaperManager.canStart)
             StartCoroutine(SetCanStart());
     }
 
@@ -26,7 +26,7 @@ public class Paper : MonoBehaviour
     {
         inventory = Inventory.Instance;
 
-        if (canStart)
+        if (PaperManager.canStart)
         {
             Debug.Log("OnEnable.TrySetPaper()");
             TrySetPaper();
@@ -69,12 +69,11 @@ public class Paper : MonoBehaviour
     private IEnumerator SetCanStart()
     {
         yield return new WaitForSeconds(0.5f);
-        canStart = true;
+        PaperManager.canStart = true;
     }
 
     private void OnDestroy()
     {
         PaperManager.Instance.OnPaperStutesChange -= PaperManager_OnPaperStutesChange;
-        canStart = false;
     }
 }

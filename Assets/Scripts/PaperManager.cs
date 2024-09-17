@@ -18,6 +18,7 @@ public class PaperManager : MonoBehaviour
 
     private Inventory inventory;
 
+    public static bool canStart = false;
 
     // Start is called before the first frame update
     void Start()
@@ -78,6 +79,11 @@ public class PaperManager : MonoBehaviour
             }
         }
         OnPaperStutesChange?.Invoke(this, EventArgs.Empty);
+    }
+
+    private void OnDestroy()
+    {
+        canStart = false;
     }
 }
 
