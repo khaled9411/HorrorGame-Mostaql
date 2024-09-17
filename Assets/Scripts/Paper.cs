@@ -75,5 +75,6 @@ public class Paper : MonoBehaviour
     private void OnDestroy()
     {
         PaperManager.Instance.OnPaperStutesChange -= PaperManager_OnPaperStutesChange;
+        canStart = false;
     }
 }
