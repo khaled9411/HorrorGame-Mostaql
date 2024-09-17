@@ -44,22 +44,25 @@ public class Paper : MonoBehaviour
     {
         Debug.Log($"inventory {inventory} and thisItem {thisItem}");
         // get reference to the InventoryItem
-        var inventoryItem = inventory.GetInventoryItem(thisItem);
-        var itemData = inventoryItem.CustomData;
-
-        // get custom data using JObject
-        var json = itemData.GetJson();
-
-        if ((bool)json["solved"])
+        if (inventory.GetInventoryItem(thisItem))
         {
-            gameObject.GetComponent<MeshRenderer>().material = paperMaterialAfterSolving;
-            gameObject.GetComponent<InteractableItem>().IsPaper = true;
-            gameObject.GetComponent<InteractableItem>().InteractableType = InteractableItem.InteractableTypeEnum.ExamineItem;
-        }
-        else
-        {
-            gameObject.GetComponent<MeshRenderer>().material = paperMaterialBeforeSolving;
-            gameObject.GetComponent<InteractableItem>().IsPaper = false;
+            var inventoryItem = inventory.GetInventoryItem(thisItem);
+            var itemData = inventoryItem.CustomData;
+
+            // get custom data using JObject
+            var json = itemData.GetJson();
+
+            if ((bool)json["solved"])
+            {
+                gameObject.GetComponent<MeshRenderer>().material = paperMaterialAfterSolving;
+                gameObject.GetComponent<InteractableItem>().IsPaper = true;
+                gameObject.GetComponent<InteractableItem>().InteractableType = InteractableItem.InteractableTypeEnum.ExamineItem;
+            }
+            else
+            {
+                gameObject.GetComponent<MeshRenderer>().material = paperMaterialBeforeSolving;
+                gameObject.GetComponent<InteractableItem>().IsPaper = false;
+            }
         }
     }
 

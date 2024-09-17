@@ -58,21 +58,24 @@ public class PaperManager : MonoBehaviour
     {
         foreach (var paper in Papers)
         {
-            // get reference to the InventoryItem
-            var inventoryItem = inventory.GetInventoryItem(paper);
-            var itemData = inventoryItem.CustomData;
+            if (inventory.GetInventoryItem(paper))
+            {
+                // get reference to the InventoryItem
+                var inventoryItem = inventory.GetInventoryItem(paper);
+                var itemData = inventoryItem.CustomData;
 
-            // get custom data using JObject
-            var json = itemData.GetJson();
+                // get custom data using JObject
+                var json = itemData.GetJson();
 
-            // set the solved boolen to true
-            //Debug.Log((bool)json["solved"]);
-            json["solved"] = true;
+                // set the solved boolen to true
+                //Debug.Log((bool)json["solved"]);
+                json["solved"] = true;
 
-            // save json string
-            itemData.Update(json);
+                // save json string
+                itemData.Update(json);
 
-            //Debug.Log((bool)json["solved"]);
+                //Debug.Log((bool)json["solved"]);
+            }
         }
         OnPaperStutesChange?.Invoke(this, EventArgs.Empty);
     }
