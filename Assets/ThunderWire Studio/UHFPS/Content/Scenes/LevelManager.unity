@@ -133,7 +133,22 @@ PrefabInstance:
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
       propertyPath: LevelInfos.Array.size
-      value: 4
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[0].SceneName
+      value: MainGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[1].SceneName
+      value: MainGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[2].SceneName
+      value: MainGame
       objectReference: {fileID: 0}
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
@@ -142,14 +157,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
+      propertyPath: LevelInfos.Array.data[0].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 8149d9f29bf762b4b9bd6f323c2df08e,
+        type: 3}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[1].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a90b4371d5d5b6458c58d448a0e4d7e,
+        type: 3}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
       propertyPath: LevelInfos.Array.data[3].Background
       value: 
       objectReference: {fileID: 21300000, guid: 8a90b4371d5d5b6458c58d448a0e4d7e,
         type: 3}
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
+      propertyPath: LevelInfos.Array.data[0].Title.GlocText
+      value: '*Shadow''s End'
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[1].Title.GlocText
+      value: '*Shadow''s End'
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[2].Title.GlocText
+      value: '*Shadow''s End'
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
       propertyPath: LevelInfos.Array.data[3].Title.GlocText
       value: '*Shadow''s End'
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[0].Description.GlocText
+      value: loading.description.demoscene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: LevelInfos.Array.data[1].Description.GlocText
+      value: loading.description.demoscene3
       objectReference: {fileID: 0}
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
