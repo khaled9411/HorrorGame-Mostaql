@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5127976719525306133}
   - component: {fileID: 339733578232082594}
   - component: {fileID: 2750057151363872335}
+  - component: {fileID: 2893462408869542171}
   m_Layer: 6
   m_Name: Drawer_E
   m_TagString: Untagged
@@ -135,7 +136,14 @@ MonoBehaviour:
   unlockScript: {fileID: 0}
   keepUnlockItem: 0
   unlockItem:
-    GUID: 
+    m_GUID: 
+    m_Item:
+      Name: 
+      GUID: 
+      Icon: {fileID: 0}
+    m_Section:
+      Name: 
+      GUID: 
   showLockedText: 0
   lockedText:
     GlocText: 
@@ -481,6 +489,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentedObjects: []
   FlipUP: 0
+--- !u!114 &2893462408869542171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41823725425447835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Override: 0
+  CustomIcon: {fileID: 0}
+  IconSize: {x: 0, y: 0}
+  OverrideCulling: 0
+  CullLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DistanceShow: 4
+  DistanceHide: 4
 --- !u!1 &1353718542493279097
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +525,7 @@ GameObject:
   - component: {fileID: 8373998824286568115}
   - component: {fileID: 8582206731600558719}
   - component: {fileID: 984584370236232548}
+  - component: {fileID: 4916170580065781824}
   m_Layer: 6
   m_Name: Drawer_D
   m_TagString: Untagged
@@ -616,7 +646,14 @@ MonoBehaviour:
   unlockScript: {fileID: 0}
   keepUnlockItem: 0
   unlockItem:
-    GUID: 
+    m_GUID: 
+    m_Item:
+      Name: 
+      GUID: 
+      Icon: {fileID: 0}
+    m_Section:
+      Name: 
+      GUID: 
   showLockedText: 0
   lockedText:
     GlocText: 
@@ -962,6 +999,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentedObjects: []
   FlipUP: 0
+--- !u!114 &4916170580065781824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353718542493279097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Override: 0
+  CustomIcon: {fileID: 0}
+  IconSize: {x: 0, y: 0}
+  OverrideCulling: 0
+  CullLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DistanceShow: 4
+  DistanceHide: 4
 --- !u!1 &1681154020784348634
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,6 +1035,7 @@ GameObject:
   - component: {fileID: 6110083520073835634}
   - component: {fileID: 6238559087572454698}
   - component: {fileID: 6542191826417351762}
+  - component: {fileID: 448891163661199845}
   m_Layer: 6
   m_Name: Drawer_C
   m_TagString: Untagged
@@ -1097,7 +1156,14 @@ MonoBehaviour:
   unlockScript: {fileID: 0}
   keepUnlockItem: 0
   unlockItem:
-    GUID: 
+    m_GUID: 
+    m_Item:
+      Name: 
+      GUID: 
+      Icon: {fileID: 0}
+    m_Section:
+      Name: 
+      GUID: 
   showLockedText: 0
   lockedText:
     GlocText: 
@@ -1443,6 +1509,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentedObjects: []
   FlipUP: 0
+--- !u!114 &448891163661199845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681154020784348634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Override: 0
+  CustomIcon: {fileID: 0}
+  IconSize: {x: 0, y: 0}
+  OverrideCulling: 0
+  CullLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DistanceShow: 4
+  DistanceHide: 4
 --- !u!1 &2215334725036552876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1545,7 @@ GameObject:
   - component: {fileID: 7297456180309666038}
   - component: {fileID: 4368958086059460433}
   - component: {fileID: 974600729964176109}
+  - component: {fileID: 8470092274728009124}
   m_Layer: 6
   m_Name: Drawer_A
   m_TagString: Untagged
@@ -1578,7 +1666,14 @@ MonoBehaviour:
   unlockScript: {fileID: 0}
   keepUnlockItem: 0
   unlockItem:
-    GUID: 
+    m_GUID: 
+    m_Item:
+      Name: 
+      GUID: 
+      Icon: {fileID: 0}
+    m_Section:
+      Name: 
+      GUID: 
   showLockedText: 0
   lockedText:
     GlocText: 
@@ -1924,6 +2019,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentedObjects: []
   FlipUP: 0
+--- !u!114 &8470092274728009124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215334725036552876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Override: 0
+  CustomIcon: {fileID: 0}
+  IconSize: {x: 0, y: 0}
+  OverrideCulling: 0
+  CullLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DistanceShow: 4
+  DistanceHide: 4
 --- !u!1 &8252981338529457218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +2055,7 @@ GameObject:
   - component: {fileID: 189441252318299736}
   - component: {fileID: 6468623842225091543}
   - component: {fileID: 3992436870917780124}
+  - component: {fileID: 3612822026345386581}
   m_Layer: 6
   m_Name: Drawer_B
   m_TagString: Untagged
@@ -2059,7 +2176,14 @@ MonoBehaviour:
   unlockScript: {fileID: 0}
   keepUnlockItem: 0
   unlockItem:
-    GUID: 
+    m_GUID: 
+    m_Item:
+      Name: 
+      GUID: 
+      Icon: {fileID: 0}
+    m_Section:
+      Name: 
+      GUID: 
   showLockedText: 0
   lockedText:
     GlocText: 
@@ -2405,6 +2529,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentedObjects: []
   FlipUP: 0
+--- !u!114 &3612822026345386581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8252981338529457218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Override: 0
+  CustomIcon: {fileID: 0}
+  IconSize: {x: 0, y: 0}
+  OverrideCulling: 0
+  CullLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DistanceShow: 4
+  DistanceHide: 4
 --- !u!1 &9158672874177368985
 GameObject:
   m_ObjectHideFlags: 0

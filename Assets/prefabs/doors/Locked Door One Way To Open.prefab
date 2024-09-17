@@ -687,6 +687,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4754397966406664135}
+    - targetCorrespondingSourceObject: {fileID: 8731966723810268454, guid: 4fb145edbd6d57745a279d8d4a782c32,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5531992824885779127}
   m_SourcePrefab: {fileID: 100100000, guid: 4fb145edbd6d57745a279d8d4a782c32, type: 3}
 --- !u!114 &3005968051218458499 stripped
 MonoBehaviour:
@@ -700,6 +704,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddc39b34b857144a9bdc90423afbb96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8360912760352548795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8731966723810268454, guid: 4fb145edbd6d57745a279d8d4a782c32,
+    type: 3}
+  m_PrefabInstance: {fileID: 948501003620463261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5531992824885779127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360912760352548795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b3c670950d84396a431bb71937a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Override: 0
+  CustomIcon: {fileID: 0}
+  IconSize: {x: 0, y: 0}
+  OverrideCulling: 0
+  CullLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DistanceShow: 4
+  DistanceHide: 4
 --- !u!4 &8626565296873659011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8835631244423981086, guid: 4fb145edbd6d57745a279d8d4a782c32,
