@@ -13,7 +13,7 @@ public class AIOpenCloseDoorTigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.transform);
-        if(other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent) && !door.isLocked)
+        if(other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent) && !door.isLocked && !door.IsOpened)
         {
             agentsInRange++;
 
@@ -23,7 +23,7 @@ public class AIOpenCloseDoorTigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent) && !door.isLocked)
+        if (other.TryGetComponent<NavMeshAgent>(out NavMeshAgent agent) && !door.isLocked && door.IsOpened)
         {
             agentsInRange--;
 
