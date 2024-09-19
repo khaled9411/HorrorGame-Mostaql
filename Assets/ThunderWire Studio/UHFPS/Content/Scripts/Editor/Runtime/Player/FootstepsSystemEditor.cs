@@ -23,7 +23,7 @@ namespace UHFPS.Editors
                 EditorGUILayout.Space();
                 using(new EditorDrawing.BorderBoxScope(new GUIContent("Footstep Settings")))
                 {
-                    Properties.Draw("StepPlayerVelocity");
+                    Properties.Draw("StepNPCVelocity");
                     Properties.Draw("JumpStepAirTime");
                 }
 
