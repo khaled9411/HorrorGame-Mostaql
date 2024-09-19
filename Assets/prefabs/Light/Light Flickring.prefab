@@ -46,7 +46,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 4
   m_Range: 7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -145,8 +145,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fc955f34a9ce3b745a40c79da563033c, type: 3}
   - {fileID: 8300000, guid: d396f0caea1fc3945a8c93ada305c3d5, type: 3}
   - {fileID: 8300000, guid: 3188c9720a3372f4b9e43db38e3f74bd, type: 3}
-  BallastVolume: 0.75
-  MaxSoundDistance: 70
+  BallastVolume: 0.1
+  MaxSoundDistance: 50
   EnableEmission: 0
   EmissionKeyword: _EMISSION
   Material:
