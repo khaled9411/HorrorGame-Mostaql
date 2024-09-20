@@ -381,6 +381,30 @@ MonoBehaviour:
       Text: You have to know the story of the house.
     - Key: paper.hint.solver
       Text: All encrypted papers have been decrypted.
+    - Key: paper.text.pass
+      Text: 'Damn. I forgot to take the safe from the upstairs room where I locked
+        the two officers in.
+
+        Damn, it had useful stuff in it in this darkness.
+
+        I
+        never gave it to anyone, but now I need someone to go and get what''s in
+        it. I will send someone
+
+        6135
+
+'
+    - Key: paper.text.hint
+      Text: "I tried every thing to escape from this house but someone messed with
+        the keypad in the basement which is the only way to escape\r\n\r\nNumber
+        3 is broken and the keypad does not accept duplicate numbers so the passcode
+        cannot have number 3 or two similar numbers\r\n\r\nAnd the passcode has to
+        do with encrypted ghost stories as I understood when I decoded that the two
+        little brothers are the first to enter the house and cave territory then
+        the lost young man then the two officers and then I knew that the one behind
+        all of this is the child Rick who was living in the house here with his grandmother
+        before something terrifying and mysterious happened making his grandmother
+        a scary and terrifying existence \r\n\n"
   - Section: inventory
     Localizations:
     - Key: context.use
