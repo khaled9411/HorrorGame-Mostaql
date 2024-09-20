@@ -159,7 +159,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelInfos.Array.data[0].Background
       value: 
-      objectReference: {fileID: 21300000, guid: 8149d9f29bf762b4b9bd6f323c2df08e,
+      objectReference: {fileID: 21300000, guid: 4ac80ecc463150c4696ab1426d85a52b,
         type: 3}
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
@@ -196,7 +196,7 @@ PrefabInstance:
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
       propertyPath: LevelInfos.Array.data[0].Description.GlocText
-      value: loading.description.demoscene3
+      value: '*A dangerous house full of monsters and mysteries'
       objectReference: {fileID: 0}
     - target: {fileID: 739956880366519295, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
@@ -237,6 +237,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: TipsList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: TipsList.Array.data[0].GlocText
+      value: '*Enter TAB To Open Inventory'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: TipsList.Array.data[1].GlocText
+      value: '*Press one to Equip The Lantern'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: TipsList.Array.data[2].GlocText
+      value: '*You Can Hide Under The Bed And Inside The Locker'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926522897735945627, guid: a6d90327880ef514da0c37e51d684ce0,
+        type: 3}
+      propertyPath: TipsList.Array.data[3].GlocText
+      value: '*You Can Hide Youerself Behind Any obstacles'
       objectReference: {fileID: 0}
     - target: {fileID: 2674515566535311797, guid: a6d90327880ef514da0c37e51d684ce0,
         type: 3}
