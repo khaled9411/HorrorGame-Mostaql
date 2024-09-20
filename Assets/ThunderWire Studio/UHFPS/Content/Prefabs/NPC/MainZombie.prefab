@@ -846,7 +846,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 15
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -946,6 +946,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f5bb3139d987a2f4ca8d843ec4088dbf, type: 3}
   screamOfAgerSound: {fileID: 8300000, guid: b4864ac01c2030240b3f6b6412159883, type: 3}
   screamOfAgerAudioSource: {fileID: 8780136996598402347}
+  ChaseAudioSource: {fileID: 0}
+  afterRunAudioSource: {fileID: 0}
 --- !u!1 &2262949728105673261
 GameObject:
   m_ObjectHideFlags: 0
