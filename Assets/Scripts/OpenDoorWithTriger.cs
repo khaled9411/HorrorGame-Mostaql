@@ -10,7 +10,8 @@ public class OpenDoorWithTriger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        isLocked = false;
-        dynamicObject.SetLockedStatus(isLocked);
+        Debug.Log(dynamicObject.dynamicStatus);
+        dynamicObject.dynamicStatus = DynamicObject.DynamicStatus.Normal;
+        Debug.Log(dynamicObject.dynamicStatus);
     }
 }
