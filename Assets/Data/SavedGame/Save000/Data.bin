@@ -1,18 +1,18 @@
 {
-  "id": "34ec1c23a6e3410880cfbe778ed9f82c",
+  "id": "df5bec246c0a4647aa2e840d14bffe91",
   "playerData": {
     "position": {
-      "x": 13.9306431,
-      "y": 17.1180019,
-      "z": 74.4200058
+      "x": 7.58974266,
+      "y": 0.7180015,
+      "z": 61.7594833
     },
     "rotation": {
-      "x": 270.9004,
-      "y": -35.50015
+      "x": 43.43831,
+      "y": -41.2000542
     },
     "localData": {
       "health": 100,
-      "selectedItem": 4,
+      "selectedItem": 5,
       "playerItems": {
         "playerItem_0": {
           "recordingTime": 0,
@@ -25,10 +25,10 @@
           "flashlightAttached": false
         },
         "playerItem_4": {
-          "batteryEnergy": 41.1289177
+          "batteryEnergy": 0.0
         },
         "playerItem_5": {
-          "currentFuel": 0.0
+          "currentFuel": 29.4191551
         },
         "playerItem_6": {},
         "playerItem_7": {},
@@ -53,7 +53,7 @@
             "customData": {}
           },
           "item_1": {
-            "item": "eb63b2ffe5af4b8cb8396f2d6eae67e5",
+            "item": "3905d98ae65b4984a9b8fe2e994d6ead",
             "quantity": 1,
             "orientation": 0,
             "position": {
@@ -63,29 +63,27 @@
             "customData": {}
           },
           "item_2": {
-            "item": "cfae8f669c8a413b9b443044799299f8",
+            "item": "b70a06636e824c48a8631756ccb04b3c",
             "quantity": 1,
             "orientation": 0,
             "position": {
               "x": 3,
               "y": 0
             },
-            "customData": {
-              "solved": true
-            }
+            "customData": {}
           },
           "item_3": {
-            "item": "ba53a6ad76bb4513ba434a3b7542345a",
+            "item": "1a62d00e739445248211bcfbc6189138",
             "quantity": 1,
             "orientation": 0,
             "position": {
-              "x": 2,
-              "y": 1
+              "x": 4,
+              "y": 0
             },
             "customData": {}
           },
           "item_4": {
-            "item": "fbf7d5f903cf48369107a58de568572d",
+            "item": "cfae8f669c8a413b9b443044799299f8",
             "quantity": 1,
             "orientation": 0,
             "position": {
@@ -93,45 +91,13 @@
               "y": 0
             },
             "customData": {
-              "solved": true
+              "solved": false
             }
-          },
-          "item_5": {
-            "item": "21cc6375d5614192aac1fedce6147cfa",
-            "quantity": 1,
-            "orientation": 0,
-            "position": {
-              "x": 4,
-              "y": 0
-            },
-            "customData": {
-              "level": "red"
-            }
-          },
-          "item_6": {
-            "item": "e504d12d72e249a898b3ae4b65604ae0",
-            "quantity": 2,
-            "orientation": 0,
-            "position": {
-              "x": 4,
-              "y": 1
-            },
-            "customData": {}
-          },
-          "item_7": {
-            "item": "12bb84ecda3946579a8db52385d1f86b",
-            "quantity": 1,
-            "orientation": 0,
-            "position": {
-              "x": 5,
-              "y": 1
-            },
-            "customData": {}
           }
         },
         "shortcuts": {
           "shortcut_0": "cc6f1cc8ccdc4588b87a90062377e156",
-          "shortcut_1": "ba53a6ad76bb4513ba434a3b7542345a",
+          "shortcut_1": "{}",
           "shortcut_2": "{}",
           "shortcut_3": "{}"
         }
@@ -141,33 +107,113 @@
   },
   "worldState": {
     "worldSaveables": {
-      "DynamicObject.d4448331f42099b4badba0f0433e0d4f": {
+      "DynamicObject.be85826ed60d6fa4695c14d3c654bab5": {
         "rotation": {
-          "x": 2.1689425E-06,
-          "y": 150.000031,
+          "x": 1.00179122E-05,
+          "y": 0.0,
           "z": 0.0
         },
-        "targetAngle": 150.0,
-        "currentAngle": 150.0,
-        "openAngle": 150.0,
-        "isOpenSound": true,
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
         "disableSounds": false,
-        "isOpened": true,
-        "isLocked": false
+        "isOpened": false,
+        "isLocked": true
       },
-      "DraggableItem.b3ea4505cabc49a40a61c9e9002f58f1": {
+      "DynamicObject.7b44f0d15588ff7439fe499cd9aec3cb": {
+        "rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "isLocked": true
+      },
+      "InteractableItem.618816a15a695524b8ca6c01d26cd3dd": {
         "position": {
-          "x": 0.391616821,
-          "y": 7.61681032,
-          "z": 40.987114
+          "x": 19.5920925,
+          "y": 7.70315075,
+          "z": 70.2495651
         },
         "rotation": {
-          "x": 10.4223366,
-          "y": 13.7972641,
-          "z": 291.40033
+          "x": 270.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "LookAtTrigger.92c96d63c55599a46aab76d548e548a4": {
+        "isLookedOnce": false,
+        "resetLook": false
+      },
+      "JumpscareTrigger.2d05099e48b004d409593cf4f7c55ac3": {
+        "jumpscareStarted": false
+      },
+      "InteractableItem.a3f34767c8d9c5344a7e0b85dbe4d1d1": {
+        "position": {
+          "x": -13.89,
+          "y": 18.34287,
+          "z": 65.79827
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "JumpscareTrigger.a51191f98d3533a4c908aef592837208": {
+        "jumpscareStarted": true
+      },
+      "InteractableItem.8768208927755ae43b6106af86689ae8": {
+        "position": {
+          "x": -11.1737833,
+          "y": 18.362,
+          "z": 35.8776436
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 89.9999542,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "DynamicObject.b655c03cc2af6ea40bb25c30ed9919d9": {
+        "rotation": {
+          "x": -2.50447829E-06,
+          "y": 2.56132062E-05,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DraggableItem.cd314b02b91d07d4cb3a5d1942c40d9c": {
+        "position": {
+          "x": 0.380569458,
+          "y": 7.671006,
+          "z": 40.9868774
+        },
+        "rotation": {
+          "x": 9.85386848,
+          "y": 12.5477257,
+          "z": 297.486572
         }
       },
-      "InteractableItem.9794a0d2aadc405469127e9581450244": {
+      "InteractableItem.f4a04be08475b724b80c691598bdfe59": {
         "position": {
           "x": 23.4790268,
           "y": 1.6842,
@@ -179,13 +225,13 @@
           "z": 0.0
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": false,
         "customData": {
           "level": "red"
         }
       },
-      "InteractableItem.87293e119e3a55642b8ee9f3d89f651c": {
+      "InteractableItem.8fcebb0bd70fe7d49b26b21bd72454af": {
         "position": {
           "x": 0.08,
           "y": 0.47,
@@ -201,15 +247,15 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.71cb793c823588c41b323c7d7138272b": {
+      "DynamicObject.d1b99fe5d065c43468053eb9c35aaacd": {
         "rotation": {
           "x": 0.0,
-          "y": 270.0,
+          "y": 0.0,
           "z": 0.0
         },
         "isLocked": false
       },
-      "InteractableItem.6c94c1e5d32301c43ba71dd92317bc5c": {
+      "InteractableItem.4b8ac9754fa308c46976e7b8f74bf41e": {
         "position": {
           "x": 41.56,
           "y": 1.869,
@@ -225,7 +271,7 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.8b48f4ec90b79ad4da1c1f5b5a1f64c7": {
+      "DynamicObject.6b3c2ff135109774899a68f5efff8c3b": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -234,7 +280,10 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.03406d5e157fcef49bb46d7f060506b9": {
+      "SaveIsActive.7732ff6234a07eb4d843d78ff611e94a": {
+        "Place2SetActiveTrigger": true
+      },
+      "DynamicObject.2fed599fb8a5a2446989c12d8569863e": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -243,10 +292,10 @@
         "isOpened": false,
         "isLocked": false
       },
-      "SafeKeypadPuzzle.c8a9aecb6cbbdd249ac551c7fe58aa8f": {
-        "isUnlocked": true
+      "SafeKeypadPuzzle.c78afa3d282c58e47ab9df0dccc37402": {
+        "isUnlocked": false
       },
-      "DynamicObject.1f78b76568e39424f9aa7dab4b7975c3": {
+      "DynamicObject.8a0a33e1b1c90c84a9cd14bcf467ca2b": {
         "rotation": {
           "x": 1.00179122E-05,
           "y": 180.0,
@@ -260,7 +309,7 @@
         "isOpened": false,
         "isLocked": true
       },
-      "DynamicObject.56811491c883877498a4afcbb308cdcd": {
+      "DynamicObject.b47af8b09acb5764fada9f67d8d9b152": {
         "rotation": {
           "x": 1.00179141E-05,
           "y": 270.0,
@@ -272,12 +321,12 @@
         "isOpenSound": false,
         "disableSounds": false,
         "isOpened": false,
-        "isLocked": false
+        "isLocked": true
       },
-      "SaveIsActive.128b65bc5b7eb364d83754e1d98d8b48": {
-        "Place2MainZombie": true
+      "SaveIsActive.4a3d6a04d44ca8d41b7cdb79657e67a8": {
+        "Place2MainZombie": false
       },
-      "InteractableItem.575b351456c41af4d8ce4a832e4ae1b3": {
+      "InteractableItem.d713192a0a4923a4a8d556fe50f16f4f": {
         "position": {
           "x": 8.235,
           "y": 1.77,
@@ -295,7 +344,13 @@
           "solved": false
         }
       },
-      "InteractableItem.54b23ef481006e045977613e0e56d891": {
+      "SaveIsActive.686c36fef1032a34c81403fea0e08b8c": {
+        "Place3SetActiveTrigger": true
+      },
+      "SaveIsActive.9e168fec040a0c647847af4a252922b5": {
+        "Place1SetActiveTrigger": true
+      },
+      "InteractableItem.2c6a33a2de2f6f2499438f2a00eb47cd": {
         "position": {
           "x": 0.08,
           "y": 0.47,
@@ -311,25 +366,25 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DraggableItem.8f1bb58e918326345aa44808e31042a2": {
+      "DraggableItem.4610e9ca21e2080478741def8f128e9e": {
         "position": {
-          "x": 3.5342226,
+          "x": 3.534225,
           "y": 1.56430364,
           "z": 54.1699142
         },
         "rotation": {
-          "x": -3.53053088E-06,
-          "y": -2.87753355E-05,
-          "z": -5.799572E-06
+          "x": -7.07341133E-06,
+          "y": -5.14869644E-05,
+          "z": -2.47496587E-06
         }
       },
-      "SaveIsActive.2b714a3c590bc3b4fa967d06468c4ebf": {
-        "Place1SetActiveTrigger": false
+      "SaveIsActive.be8950029c45d1f41bb348519ce2a684": {
+        "Place1SetActiveTrigger": true
       },
-      "JumpscareTrigger.7b01de78bb0b4014e948aa023bcf5e7a": {
+      "JumpscareTrigger.a4970575bcfb0784bb89b777fd785110": {
         "jumpscareStarted": false
       },
-      "InteractableItem.a58760a203b0d4e418cff4b5b72a0cf1": {
+      "InteractableItem.e59988f99bf57094aa57de7819802b9e": {
         "position": {
           "x": 25.379,
           "y": 7.705,
@@ -347,7 +402,7 @@
           "solved": false
         }
       },
-      "DynamicObject.08eec68158bcdbb4db90dce93b4f97bf": {
+      "DynamicObject.f879937301d29454cb51f57e8e24e613": {
         "rotation": {
           "x": 0.0,
           "y": 90.0,
@@ -361,7 +416,7 @@
         "isOpened": true,
         "isLocked": false
       },
-      "DynamicObject.107f91b0f6098c7449f93d0857a2412e": {
+      "DynamicObject.a8eb76dd9da0f3e438d2e3ed97e42ead": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -370,23 +425,26 @@
         "isOpened": false,
         "isLocked": false
       },
-      "InteractableItem.54a33f4e8b0428047baab1e597b32337": {
+      "SaveIsActive.c9be10f08e2edef43b07a44d16ffe9e0": {
+        "Place3Way": false
+      },
+      "InteractableItem.697f60c56ade1e04691596cf3d971212": {
         "position": {
           "x": -9.386559E-08,
           "y": 0.0235279519,
-          "z": 0.01850081
+          "z": 0.0185005646
         },
         "rotation": {
-          "x": 4.5931148E-07,
-          "y": 3.756604E-05,
-          "z": 2.66514735E-06
+          "x": 1.9004998E-06,
+          "y": 3.80035819E-13,
+          "z": 4.62600246E-06
         },
         "quantity": 1,
         "enabledState": false,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.38244cd800cfcd94aa0e7a0a6e22353d": {
+      "DynamicObject.0fca491d608bb5e41a164e172df54ac3": {
         "rotation": {
           "x": 0.0,
           "y": 0.0,
@@ -394,7 +452,7 @@
         },
         "isLocked": false
       },
-      "InteractableItem.aa6b9b6500d92db46ba6856ebfd09911": {
+      "InteractableItem.a9646b9af7b8fad46af6cdb6aed8cfcd": {
         "position": {
           "x": 0.0,
           "y": 0.922,
@@ -410,7 +468,7 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.47cec734c8dc8d54f9f4c76704f12142": {
+      "DynamicObject.034c857db01a3e74d99f478c328b9327": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -419,15 +477,15 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.a2549522f0ae1754e9d48e7f33199ef5": {
+      "DynamicObject.d8a7a42f8bdef044b83e399e0d3af1b1": {
         "rotation": {
           "x": 0.0,
-          "y": 0.0,
+          "y": 90.0,
           "z": 0.0
         },
         "isLocked": false
       },
-      "InteractableItem.3fbd1e4ada06f51409e31b7b84d1c92a": {
+      "InteractableItem.3ad55ebbcbb783c47ad2a8b30f421989": {
         "position": {
           "x": 32.0062447,
           "y": 1.229371,
@@ -443,7 +501,7 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.1baff8c5a35ba2545863d47d4aef007c": {
+      "DynamicObject.cca32f60d0edf0749a53f75fbc0454a1": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -452,21 +510,21 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.05fc4a48e89f9cb4fb1e74ecd28f40af": {
+      "DynamicObject.cb18b2dae5b64d446bb32b12b26f9677": {
         "rotation": {
-          "x": -3.063546E-19,
-          "y": 270.0,
-          "z": 2.31415782E-26
+          "x": 1.00179122E-05,
+          "y": 0.0,
+          "z": 0.0
         },
-        "targetAngle": -90.0,
-        "currentAngle": -90.0,
-        "openAngle": -90.0,
-        "isOpenSound": true,
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
         "disableSounds": false,
-        "isOpened": true,
-        "isLocked": false
+        "isOpened": false,
+        "isLocked": true
       },
-      "DynamicObject.09322818545d14242a775af79cd2661d": {
+      "DynamicObject.1c58e9e724c750e40922a7bc7f960de7": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -475,7 +533,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.2cebf0f7b1fd4e046b1f822f49a1a5bc": {
+      "DynamicObject.56abc7cfbb5aba84caa95b0ad03a32d3": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -484,7 +542,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.5cf16b6795ab8e44b86fa8ee0ded80e1": {
+      "DynamicObject.535386cc660b92f4d97288740234275f": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -493,7 +551,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "InteractableItem.01857ccc74df0c4438d10568754d38f3": {
+      "InteractableItem.0d82f8e87bcf06748a65b671fc9bc136": {
         "position": {
           "x": 12.717,
           "y": 18.13,
@@ -509,25 +567,25 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "SaveIsActive.d075f2456eaeb754f926f2ee88dff954": {
-        "Place1MainZombie": true
+      "SaveIsActive.09f9c9684f928204c9f13ff8aa6aa474": {
+        "Place1MainZombie": false
       },
-      "DraggableItem.b0df589fd2359ba41af8676ce868c987": {
+      "DraggableItem.62a5e2bb42b1ad24c8c3f0ee6a6f0ee2": {
         "position": {
-          "x": -11.7625427,
-          "y": 17.9642982,
-          "z": 32.42351
+          "x": -11.7736511,
+          "y": 17.9693031,
+          "z": 32.40624
         },
         "rotation": {
-          "x": -9.393982E-06,
-          "y": 304.8014,
-          "z": -3.42808676E-06
+          "x": 359.545563,
+          "y": 311.949341,
+          "z": 359.902283
         }
       },
-      "InteractableItem.3bbabfddae048124aa486a750f5501e9": {
+      "InteractableItem.f521a5ca5ec9caa48ab6fe1efff07ef0": {
         "position": {
           "x": -0.8372994,
-          "y": 7.554,
+          "y": 7.618,
           "z": 80.42838
         },
         "rotation": {
@@ -536,11 +594,11 @@
           "z": 0.0
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.fc7e6926282398e42b45076ff103dd48": {
+      "DynamicObject.324f3cc7b0299fb418937e290dff6e16": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -549,19 +607,19 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.e41bcaff7661d6440bc8650a6f2608c9": {
+      "DraggableItem.849bbca8eeea87e40a025ba718d3b6b7": {
         "position": {
-          "x": 5.591797,
-          "y": 7.564302,
-          "z": 40.9868469
+          "x": 5.59184265,
+          "y": 7.56430435,
+          "z": 40.986824
         },
         "rotation": {
-          "x": 4.627494E-06,
+          "x": -0.000313969853,
           "y": 359.424927,
-          "z": -5.4773127E-06
+          "z": -0.000346913148
         }
       },
-      "DynamicObject.d48c6f3a780b8fb4cbea218d772e6821": {
+      "DynamicObject.0c8dd6aa78e51104ebdcb9fdefeb11c4": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -570,7 +628,10 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.a56f9a60a25e2af4a983bd820dfe668e": {
+      "SaveIsActive.8fefe6ffc08c8d9499c212eb089d0884": {
+        "Place1SetActiveTrigger": true
+      },
+      "DynamicObject.514890e7f17f46c4fbcad3cfbbe2c7d2": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -579,31 +640,31 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.5ab766ef73dc93a47997afae51d26dd1": {
+      "DraggableItem.38f65c6c7a3fb9740918320a7bb496de": {
         "position": {
-          "x": 16.7908211,
+          "x": 16.79086,
           "y": 17.9643021,
-          "z": 44.0600243
+          "z": 44.06
         },
         "rotation": {
-          "x": -2.15303231E-07,
-          "y": -0.000146849052,
-          "z": 3.92754737E-05
+          "x": -5.010146E-06,
+          "y": -7.274354E-14,
+          "z": 1.663783E-06
         }
       },
-      "DraggableItem.3e0cf31ca94cfd848a5d4870f649cbe7": {
+      "DraggableItem.ac3c949f85d34b145b3360198032f764": {
         "position": {
-          "x": 4.334223,
-          "y": 1.56430483,
+          "x": 4.3342247,
+          "y": 1.564305,
           "z": 52.6699142
         },
         "rotation": {
-          "x": -7.853817E-06,
-          "y": -3.764537E-05,
-          "z": -3.5E-06
+          "x": -5.33196453E-06,
+          "y": -2.03561649E-05,
+          "z": 1.96684346E-06
         }
       },
-      "DynamicObject.093f2da1fc7ce844b9fdec4b2ba18660": {
+      "DynamicObject.79e9c9dd906424c4fa7e5cd7e9326277": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -612,35 +673,35 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.a87235fd9e7afff488b839365115be9a": {
+      "DraggableItem.6d55392fe74f5564a950314f795fee11": {
         "position": {
-          "x": 26.7768555,
-          "y": 7.5643,
-          "z": 31.93557
+          "x": 26.7740555,
+          "y": 7.564302,
+          "z": 31.94114
         },
         "rotation": {
-          "x": 1.25172137E-05,
-          "y": 357.696381,
-          "z": -1.266047E-06
+          "x": 0.000108671069,
+          "y": 356.94046,
+          "z": 0.000103888415
         }
       },
-      "InteractableItem.a5519faaa5c80e54c95ececee283e689": {
+      "InteractableItem.80da456adfbf63544928718c486e7f1f": {
         "position": {
           "x": 21.176775,
           "y": 8.02512,
           "z": 30.625
         },
         "rotation": {
-          "x": -7.77513E-08,
-          "y": -0.000200067167,
-          "z": 4.40674825E-07
+          "x": -2.065663E-07,
+          "y": -9.34201453E-05,
+          "z": 1.91237677E-06
         },
         "quantity": 1,
         "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.5bd35b6e4bf490f40ba10ee01f9fe1bb": {
+      "DynamicObject.3bfb251cd3854004fad52ac58ab415ce": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -649,40 +710,40 @@
         "isOpened": false,
         "isLocked": false
       },
-      "FuseboxPuzzle.a305014533d33c34ba1bce87226b6715": {
+      "FuseboxPuzzle.aaced23fbfc588b49b26d72c8198dbb0": {
         "fuse_0": true,
-        "fuse_1": true,
+        "fuse_1": false,
         "fuse_2": true,
         "fuse_3": true
       },
-      "DraggableItem.4e3a91c3c89400e4092da49067629f74": {
+      "DraggableItem.e01fab5dfa009a64ba3e9a201739ff04": {
         "position": {
-          "x": 15.8908081,
-          "y": 1.56429958,
-          "z": 26.04001
+          "x": 15.8908386,
+          "y": 1.5642997,
+          "z": 26.0399952
         },
         "rotation": {
-          "x": -1.36025761E-07,
-          "y": 2.18735578E-16,
-          "z": -1.8426843E-07
+          "x": 5.036054E-08,
+          "y": 3.63825863E-17,
+          "z": 8.2785796E-08
         }
       },
-      "DraggableItem.c3b7362e93e4f8942988050e44ef88c2": {
+      "DraggableItem.a91aca83835457741950d9575b91eda8": {
         "position": {
-          "x": -11.84417,
+          "x": -11.8441391,
           "y": 17.9642982,
-          "z": 61.5720253
+          "z": 61.57201
         },
         "rotation": {
-          "x": -1.36198281E-07,
-          "y": -1.94088349E-16,
-          "z": 1.63297841E-07
+          "x": -6.514532E-08,
+          "y": -8.772088E-17,
+          "z": 1.543023E-07
         }
       },
-      "KeypadPuzzle.36828dd8936bacd43a9a82f20e78604f": {
+      "KeypadPuzzle.ad4d5b675df42b74db76c3dc2623505f": {
         "accessGranted": false
       },
-      "DynamicObject.156022153ee56904a8ffd97182c0d2ab": {
+      "DynamicObject.b19defe9f4604f240ab315db517a7551": {
         "rotation": {
           "x": 0.0,
           "y": 90.0,
@@ -690,7 +751,7 @@
         },
         "isLocked": false
       },
-      "InteractableItem.76719ce8f8098cd4d910eaf717915557": {
+      "InteractableItem.198715096e6ef1a4e85949bcfb3f9961": {
         "position": {
           "x": -0.0068,
           "y": 0.0111,
@@ -706,7 +767,7 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.7a051c97091cad341b1ceee8c236d709": {
+      "DynamicObject.1018d17eaced41743b1cbed6c3fd0e6e": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -715,23 +776,23 @@
         "isOpened": false,
         "isLocked": false
       },
-      "InteractableItem.9da809d1a84f27a479c55eca3d7b71d2": {
+      "InteractableItem.1654c0394b37f4446a633e9a402568be": {
         "position": {
-          "x": -3.45930457E-05,
-          "y": 0.07093811,
-          "z": 0.154421419
+          "x": 0.0,
+          "y": 0.1931,
+          "z": 0.1544
         },
         "rotation": {
-          "x": -2.415948E-06,
+          "x": -2.41594785E-06,
           "y": 194.999741,
           "z": 9.01661E-06
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.a5ee5c2ccf4025840bbeb84c1db7e863": {
+      "DynamicObject.d72599a5bf4f2324eb3e66b403a63cbf": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -740,31 +801,31 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.c56001609952e5c41899c029f74b1f03": {
+      "DraggableItem.3fe45a1477d0d494fa962145d5fc4b65": {
         "position": {
-          "x": 4.49427032,
-          "y": 7.141152,
-          "z": 81.90999
+          "x": 4.494301,
+          "y": 7.14115238,
+          "z": 81.9099655
         },
         "rotation": {
-          "x": -0.000465244579,
-          "y": 5.46434167E-05,
-          "z": -0.000470537
+          "x": -0.00071571063,
+          "y": -0.000218563058,
+          "z": -0.0004753816
         }
       },
-      "DraggableItem.fb918c72e7b45f24d8f980dd4cc13726": {
+      "DraggableItem.96ff52149847ce54b8ea15f228b85dbf": {
         "position": {
-          "x": 15.0908356,
+          "x": 15.0908661,
           "y": 17.9643021,
-          "z": 44.06001
+          "z": 44.0599937
         },
         "rotation": {
-          "x": 5.569388E-05,
-          "y": -2.39056644E-05,
-          "z": -9.847025E-06
+          "x": 5.97495455E-05,
+          "y": 1.36604031E-05,
+          "z": 5.11389335E-05
         }
       },
-      "InteractableItem.cb7dd1659a9ab384f85046ac86afb609": {
+      "InteractableItem.c484e1ebde2576e409203db23efce829": {
         "position": {
           "x": 0.0041,
           "y": 0.0187,
@@ -776,11 +837,11 @@
           "z": -7.513438E-06
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": false,
         "customData": {}
       },
-      "DynamicObject.de9ae37cc6b38664d9d662a7ff28c2f2": {
+      "DynamicObject.76ba8b1a69f3fab4dbb8424e36fff9fc": {
         "rotation": {
           "x": 0.0,
           "y": 180.0,
@@ -788,7 +849,7 @@
         },
         "isLocked": false
       },
-      "DynamicObject.16d36e7dc8712a04ca6063d48e401bb1": {
+      "DynamicObject.558092c13e04be042919611aa8c98f33": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -797,11 +858,11 @@
         "isOpened": false,
         "isLocked": false
       },
-      "InteractableItem.26e87ea352b8fdc43ae75a7e81746ff6": {
+      "InteractableItem.4bbc4b513e38ee84bb862a39454ef3f6": {
         "position": {
           "x": 5.084,
-          "y": 7.521,
-          "z": 55.85
+          "y": 7.533,
+          "z": 55.655
         },
         "rotation": {
           "x": 270.0,
@@ -815,7 +876,7 @@
           "solved": false
         }
       },
-      "DynamicObject.9c61266529672234b809b1da00f9e945": {
+      "DynamicObject.59b19993fbd61f649ae3282e1d5ba04a": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -824,31 +885,31 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.572679b55e9011644b690e76b4ae8230": {
+      "DraggableItem.23226b7578d1b9649946d4338acc3ac4": {
         "position": {
-          "x": 12.992157,
-          "y": 17.9647827,
-          "z": 45.6369667
+          "x": 12.9932556,
+          "y": 17.9652958,
+          "z": 45.6392555
         },
         "rotation": {
-          "x": 359.957642,
-          "y": 0.185432822,
-          "z": 359.98172
+          "x": 359.7914,
+          "y": 0.135379881,
+          "z": 359.9277
         }
       },
-      "DraggableItem.86cda4406dd0b8f4aa2dcd9972882b92": {
+      "DraggableItem.8684bbbcc4baecf418a35c804b3a4b07": {
         "position": {
-          "x": 5.69426727,
-          "y": 7.14115,
-          "z": 80.80999
+          "x": 5.694298,
+          "y": 7.14114952,
+          "z": 80.8099747
         },
         "rotation": {
-          "x": -1.78863274E-07,
-          "y": -2.781662E-16,
-          "z": 1.7821155E-07
+          "x": -1.41764389E-07,
+          "y": -2.5222378E-17,
+          "z": 2.0387855E-08
         }
       },
-      "DynamicObject.897b344d2b6ce6547a52c7ee25ed66aa": {
+      "DynamicObject.8d983801a63e0c54095a045cc461b318": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -857,40 +918,40 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.71bd5a7ca40858e4dbe4437dfec09182": {
+      "DraggableItem.e88701251708ba7408b04393a28e0ef8": {
         "position": {
-          "x": 19.1864166,
-          "y": 7.57319641,
-          "z": 31.8091354
+          "x": 19.1876183,
+          "y": 7.572787,
+          "z": 31.8098831
         },
         "rotation": {
-          "x": 359.132538,
-          "y": 359.894775,
-          "z": 0.246752754
+          "x": 359.1764,
+          "y": 359.91153,
+          "z": 0.163083911
         }
       },
-      "DynamicObject.7577206f85c4c08478e77b207b94e27a": {
+      "DynamicObject.69739fb02b157644aaadd6f1c9c15e63": {
         "rotation": {
-          "x": 8.14221737E-13,
-          "y": 1.36603767E-05,
-          "z": 2.42656664E-20
+          "x": 1.00179141E-05,
+          "y": 90.00001,
+          "z": 1.22133293E-12
         },
-        "targetAngle": -90.0,
-        "currentAngle": -90.0,
-        "openAngle": -90.0,
-        "isOpenSound": true,
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
         "disableSounds": false,
-        "isOpened": true,
-        "isLocked": false
+        "isOpened": false,
+        "isLocked": true
       },
-      "SaveIsActive.aef186c4f4959274b8dd3eb9daaabcbd": {
+      "SaveIsActive.645ebd47779528144a3f06eece8e2655": {
         "Place2Trigger": true
       },
-      "InteractableItem.658e4be379c8e2045bb84b586d31511d": {
+      "InteractableItem.122eb416364436749b4ea195abcc07a5": {
         "position": {
           "x": 0.005,
-          "y": 0.0051,
-          "z": 0.0245
+          "y": 0.0077,
+          "z": -0.0117
         },
         "rotation": {
           "x": 90.0,
@@ -902,19 +963,19 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DraggableItem.bfa03a043bae9404584214342f0f9efc": {
+      "DraggableItem.fe8ce3c0a9bb20f43b65df0c3306b6a2": {
         "position": {
-          "x": -9.981949,
-          "y": 17.9643,
-          "z": 31.8139915
+          "x": -9.964844,
+          "y": 17.9643021,
+          "z": 31.8016319
         },
         "rotation": {
-          "x": 3.38752534E-06,
-          "y": 2.893657,
-          "z": -4.84292377E-06
+          "x": 0.0002677335,
+          "y": 5.999291,
+          "z": 0.0005481529
         }
       },
-      "InteractableItem.2219b1dafb98d824f916c0b45ffddad7": {
+      "InteractableItem.c2f056eb0bbd8164f98cb55f4c8eaa15": {
         "position": {
           "x": 0.08,
           "y": 0.47,
@@ -930,7 +991,7 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.fdc0b1a33bb61de499b185c60ecae201": {
+      "DynamicObject.382f2cc767e163d4bb7ab92af09c8687": {
         "rotation": {
           "x": 1.00179122E-05,
           "y": 0.0,
@@ -944,87 +1005,87 @@
         "isOpened": false,
         "isLocked": true
       },
-      "InteractableItem.74d6e01e4bbe7b741b49387724e7de53": {
+      "InteractableItem.12116ca292c873749a634ea0eeb68fee": {
         "position": {
-          "x": 0.00512431841,
-          "y": 0.022875607,
-          "z": 0.00340127526
+          "x": -0.0112798763,
+          "y": 0.0229750462,
+          "z": 0.000372878043
         },
         "rotation": {
-          "x": 1.286942E-06,
-          "y": 4.14035368,
-          "z": 3.93239543E-06
+          "x": 359.7265,
+          "y": 349.029663,
+          "z": 0.3035253
         },
         "quantity": 1,
         "enabledState": false,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DraggableItem.dc656bb4aa7b36e4696eb7fc20f026c9": {
+      "DraggableItem.8ec35463e489cad4d86043227ea77e41": {
         "position": {
-          "x": -8.313553,
-          "y": 17.96773,
-          "z": 31.86961
-        },
-        "rotation": {
-          "x": 359.759674,
-          "y": 15.2627764,
-          "z": 0.384239465
-        }
-      },
-      "DraggableItem.4404c23cbdeb7dd45a85873c0adc2ead": {
-        "position": {
-          "x": 6.49427032,
-          "y": 7.14114952,
-          "z": 81.90999
-        },
-        "rotation": {
-          "x": 1.14206927E-07,
-          "y": 2.02778417E-16,
-          "z": 2.0346134E-07
-        }
-      },
-      "DraggableItem.45700a05e70022c4f8d1f10d6cf0b208": {
-        "position": {
-          "x": -13.6391678,
-          "y": 17.9642982,
-          "z": 61.69003
-        },
-        "rotation": {
-          "x": 2.19568832E-07,
-          "y": 3.27089528E-16,
-          "z": 1.70705917E-07
-        }
-      },
-      "DraggableItem.436473d1fdab46744ac3e5d9c6ae5a9a": {
-        "position": {
-          "x": -3.60882568,
+          "x": -5.26913452,
           "y": 17.9643,
-          "z": 31.7827644
+          "z": 31.91
         },
         "rotation": {
-          "x": 5.74378532E-07,
-          "y": 359.416443,
-          "z": 8.480274E-09
+          "x": -4.52993419E-07,
+          "y": 5.12264123E-05,
+          "z": -3.75558238E-06
         }
       },
-      "DraggableItem.e0628eddfbc833c4b88cb08b017dd8c7": {
+      "DraggableItem.e34221bd85e637847ab7a21fa9ff8e17": {
         "position": {
-          "x": -2.002411,
-          "y": 7.56430626,
-          "z": 41.119606
+          "x": 6.494301,
+          "y": 7.14114952,
+          "z": 81.90997
         },
         "rotation": {
-          "x": 359.921967,
-          "y": 344.2864,
-          "z": 0.0284996312
+          "x": -6.685411E-09,
+          "y": -9.309112E-18,
+          "z": 1.59563214E-07
         }
       },
-      "InteractableItem.0ec061add82f2e24bae37951ab59f294": {
+      "DraggableItem.a2ea70a1f8d47c94d988f6271278691e": {
+        "position": {
+          "x": -13.6391373,
+          "y": 17.9642982,
+          "z": 61.6900139
+        },
+        "rotation": {
+          "x": 9.158425E-08,
+          "y": 2.633889E-17,
+          "z": 3.2955608E-08
+        }
+      },
+      "DraggableItem.3e5191aec5abd8144a64f44ff945074c": {
+        "position": {
+          "x": -3.60879517,
+          "y": 17.9643021,
+          "z": 31.78275
+        },
+        "rotation": {
+          "x": -9.818536E-05,
+          "y": 359.416382,
+          "z": -0.000293268036
+        }
+      },
+      "DraggableItem.a047946fd6a299b458c7bd1ba2ec4408": {
+        "position": {
+          "x": -2.02772522,
+          "y": 7.564704,
+          "z": 41.0992737
+        },
+        "rotation": {
+          "x": 359.895,
+          "y": 347.6447,
+          "z": 0.06031158
+        }
+      },
+      "InteractableItem.ae7b82ece9192e84aac0f9c61b6c0f92": {
         "position": {
           "x": 20.2873955,
-          "y": 17.94,
-          "z": 43.515
+          "y": 17.9459,
+          "z": 43.407
         },
         "rotation": {
           "x": 90.0,
@@ -1032,23 +1093,23 @@
           "z": 0.0
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DraggableItem.ec8413f7ec777c04a817de81058b9eb2": {
+      "DraggableItem.25fca26b02da26845b583c9fc96687dc": {
         "position": {
-          "x": 19.1922531,
-          "y": 7.57167,
-          "z": 33.3513641
+          "x": 19.1938171,
+          "y": 7.5693655,
+          "z": 33.35263
         },
         "rotation": {
-          "x": 0.768630147,
-          "y": 359.967316,
-          "z": 359.9018
+          "x": 0.860446155,
+          "y": 359.952148,
+          "z": 359.797546
         }
       },
-      "DynamicObject.56d7eb637c811d343aa17273272e9fa6": {
+      "DynamicObject.521e6c460b80b4945af014667e52726a": {
         "rotation": {
           "x": 0.0,
           "y": 0.0,
@@ -1056,7 +1117,10 @@
         },
         "isLocked": false
       },
-      "DynamicObject.d7b96d8f95cf4354997a98c8d2864365": {
+      "SaveIsActive.08ada0cb637a337468260cf80cdac364": {
+        "Place2SetActiveTrigger": true
+      },
+      "DynamicObject.b25c72ca8259a52438d88dd8c998340a": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -1065,19 +1129,19 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.30078847d3a04a2419d2e15d89c7b628": {
+      "DraggableItem.4fae72f52e4009c41917f51fe2af432a": {
         "position": {
-          "x": 3.13422251,
-          "y": 1.14115477,
+          "x": 3.134229,
+          "y": 1.141153,
           "z": 64.79
         },
         "rotation": {
-          "x": -0.000573211466,
-          "y": -0.000245392934,
-          "z": 0.000468353071
+          "x": -6.436836E-06,
+          "y": -5.889641E-05,
+          "z": 1.59199135E-06
         }
       },
-      "DynamicObject.d034283127fe4cb4cbffe0e75217f031": {
+      "DynamicObject.cc9c2c2832d8c1447b0655f68f8a57bd": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -1086,7 +1150,10 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.c4cdbc5bb078c344990c2ab8b7b1ae5c": {
+      "SaveIsActive.116efe2afcf4be8409b1aa698a4a6625": {
+        "Place3SetActiveTrigger": true
+      },
+      "DynamicObject.077c90f06254d7c4ea003241844e49ba": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -1095,19 +1162,19 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.4a91b2aaae110d34b91187c395ced429": {
+      "DraggableItem.0e10620b06a4c5b46a767e74005f44be": {
         "position": {
-          "x": 3.53422332,
+          "x": 3.53422523,
           "y": 1.56430471,
           "z": 50.9699173
         },
         "rotation": {
-          "x": -3.61398475E-06,
-          "y": 5.2814612E-05,
-          "z": -1.79387928E-06
+          "x": -7.016646E-06,
+          "y": 4.80817944E-05,
+          "z": -2.52030054E-06
         }
       },
-      "DynamicObject.b0007356810a4b043880b185275ac6da": {
+      "DynamicObject.6db58b5aa8b887140b2eacaf2c15cad4": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -1116,10 +1183,10 @@
         "isOpened": false,
         "isLocked": false
       },
-      "SaveIsActive.6fb76b2c02192f14abf4aa0f45e006ac": {
+      "SaveIsActive.18e6162725ce4bf4cb05d57e6747ef62": {
         "Die1Trigger (1)": false
       },
-      "InteractableItem.20d4efe75615ade44b25e5d1199876d9": {
+      "InteractableItem.bfd40f0820aad934089efa27ea86cd47": {
         "position": {
           "x": -1.798,
           "y": 17.13,
@@ -1127,7 +1194,7 @@
         },
         "rotation": {
           "x": 270.0,
-          "y": -4.280802E-05,
+          "y": -4.28080166E-05,
           "z": 0.0
         },
         "quantity": 1,
@@ -1137,7 +1204,7 @@
           "solved": false
         }
       },
-      "DynamicObject.9756f34f7f52d714e94a0038865c6574": {
+      "DynamicObject.891355491a6ca0e41b796828976cf194": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -1146,47 +1213,12 @@
         "isOpened": false,
         "isLocked": false
       },
-      "ItemsContainer.08bb50894e397d5458420155fd70ff15": {
-        "2958b184fd104895823f355dcec7680d": {
-          "item": "1a62d00e739445248211bcfbc6189138",
-          "quantity": 1,
-          "orientation": 0,
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "customData": {}
-        },
-        "471a2616a121452ab9add702eba99ece": {
-          "item": "b70a06636e824c48a8631756ccb04b3c",
-          "quantity": 1,
-          "orientation": 0,
-          "position": {
-            "x": 1,
-            "y": 0
-          },
-          "customData": {}
-        }
-      },
-      "DynamicObject.debe6977b77c5c44898957959f8bf7e6": {
+      "ItemsContainer.ace549c0cf2296a46ac86a7e9c897432": {},
+      "DynamicObject.32186c705c693864794d9f0d1e882917": {
         "rotation": {
           "x": 0.0,
-          "y": 270.0,
+          "y": 180.0,
           "z": 0.0
-        },
-        "targetAngle": 0.0,
-        "currentAngle": 0.0,
-        "openAngle": 0.0,
-        "isOpenSound": false,
-        "disableSounds": false,
-        "isOpened": false,
-        "isLocked": false
-      },
-      "DynamicObject.add130cee431dd84a87a8334baa1bae8": {
-        "rotation": {
-          "x": -3.063546E-19,
-          "y": 270.0,
-          "z": 2.31415782E-26
         },
         "targetAngle": -90.0,
         "currentAngle": -90.0,
@@ -1196,7 +1228,21 @@
         "isOpened": true,
         "isLocked": false
       },
-      "DynamicObject.ad586e504b4937a4ebbde3e307bbcc22": {
+      "DynamicObject.36b028a07f1547e409bad20612d816c5": {
+        "rotation": {
+          "x": 1.00179122E-05,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": true
+      },
+      "DynamicObject.c69836ebb0080de4a85c13a2596d1e3f": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -1205,19 +1251,19 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.b731e24410775aa4e9561f7755a08bbb": {
+      "DraggableItem.c77dae5017d66e84bb6119f93c2b7064": {
         "position": {
-          "x": 11.4369965,
+          "x": 11.4369984,
           "y": 1.1411531,
           "z": 64.82
         },
         "rotation": {
-          "x": -3.48932235E-06,
-          "y": -1.93804044E-05,
-          "z": 4.5227614E-07
+          "x": -6.611514E-06,
+          "y": -7.730824E-06,
+          "z": -1.79825349E-06
         }
       },
-      "InteractableItem.c30e642f4ae5c7d4db3b5a9693614044": {
+      "InteractableItem.c672242aeddc0b046b830c29dcd2e1bb": {
         "position": {
           "x": 0.0,
           "y": 0.922,
@@ -1233,7 +1279,7 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.409878f2a2267ef4aa5e0f3359b412cc": {
+      "DynamicObject.dc07642fa63ca324389e545f34e052c4": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -1242,55 +1288,55 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.2319c7dafbed1214e8a11546ce7ef0b3": {
+      "DraggableItem.aa133c08242e88a4cbe84d3e8a11a4d5": {
         "position": {
-          "x": 13.83424,
-          "y": 1.14116013,
-          "z": 63.00002
+          "x": 13.8342371,
+          "y": 1.14117241,
+          "z": 63.0000534
         },
         "rotation": {
-          "x": 0.00127929158,
-          "y": -0.00160079217,
-          "z": -0.00193627866
+          "x": 0.003703898,
+          "y": -0.0010842582,
+          "z": -9.488352E-05
         }
       },
-      "DraggableItem.701bc3e5551391342882cd2ab7bf858b": {
+      "DraggableItem.ac1c5f47850216b4a9550f18d8498dd6": {
         "position": {
-          "x": 5.03422546,
+          "x": 5.03422737,
           "y": 1.141153,
           "z": 64.65
         },
         "rotation": {
-          "x": -2.66305847E-06,
-          "y": 4.298926E-05,
-          "z": -1.62188771E-05
+          "x": -4.164637E-06,
+          "y": -7.72164E-06,
+          "z": -5.1486677E-07
         }
       },
-      "DraggableItem.44ea71aa578e16e4b8ebc167b748dbea": {
+      "DraggableItem.4d6670ca0854c7040878260db690d2d0": {
         "position": {
-          "x": -6.288933,
-          "y": 17.9645329,
-          "z": 61.379528
+          "x": -6.28907,
+          "y": 17.964571,
+          "z": 61.3792534
         },
         "rotation": {
-          "x": 0.0388585,
-          "y": 356.220062,
-          "z": -0.00310785929
+          "x": 0.03501769,
+          "y": 356.2011,
+          "z": 0.004830897
         }
       },
-      "DraggableItem.5346936bc353b7247b11a9a90ea48df8": {
+      "DraggableItem.ec1dfc9a366c22f4e949ccd54d4f28b3": {
         "position": {
           "x": 13.8342295,
-          "y": 1.14115441,
-          "z": 59.5599976
+          "y": 1.141153,
+          "z": 59.56
         },
         "rotation": {
-          "x": -0.0004567563,
-          "y": -0.000302502041,
-          "z": -1.61783664E-05
+          "x": 7.90627E-05,
+          "y": -0.0001626616,
+          "z": -0.0001194318
         }
       },
-      "DynamicObject.20a66a327d6d50b40bf753036f294e23": {
+      "DynamicObject.f4f7b86ed238ffe48aa85cfbed4bbcd0": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.121617191,
@@ -1299,7 +1345,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.50a53e76e5633ee4cb76b6d4cc46e03c": {
+      "DynamicObject.c864bdefafe32c64f90cab0e3e1e9597": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.531617165,
@@ -1308,19 +1354,19 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.6d2149cf554401c4fa742e11ac730692": {
+      "DraggableItem.23c408c4ce55f87489b255a42e49ed26": {
         "position": {
-          "x": 15.7451172,
-          "y": 1.56585062,
-          "z": 33.35466
+          "x": 15.7791748,
+          "y": 1.56452966,
+          "z": 33.34909
         },
         "rotation": {
-          "x": 0.244152054,
-          "y": 358.789,
-          "z": 0.0125054782
+          "x": 0.100852087,
+          "y": 359.7755,
+          "z": 0.03849404
         }
       },
-      "DynamicObject.3433ecece5d50294298b91aeff095ea2": {
+      "DynamicObject.1c9b61c6b97798d438e569e5b3b744f7": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -1329,31 +1375,34 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.59dd56b3903b9d3428cab01c01372470": {
+      "DraggableItem.76edb0b586b15a7438eaa5d46b6f7075": {
         "position": {
-          "x": 23.8908081,
-          "y": 1.56430054,
-          "z": 31.9400272
+          "x": 23.8908386,
+          "y": 1.564304,
+          "z": 31.9400043
         },
         "rotation": {
-          "x": 3.39485518E-06,
-          "y": 5.12264123E-05,
-          "z": -4.2031872E-05
+          "x": -0.000198418784,
+          "y": 8.196342E-05,
+          "z": -0.0006688287
         }
       },
-      "SaveableObject.f4c4dad8a79484447a4d7cdc8dc151fc": {
+      "SaveIsActive.0ea2f0af0e5286b43ab9da69bf5e09bf": {
+        "Place1SetActiveTrigger": true
+      },
+      "SaveableObject.bba6a542e94562f4dbae24eaa12d37f0": {
         "position": {
-          "x": 49.7796631,
-          "y": 0.71800077,
-          "z": 72.46829
+          "x": 49.7786369,
+          "y": 0.71800065,
+          "z": 72.64154
         },
         "rotation": {
           "x": 0.0,
-          "y": 269.1606,
+          "y": 260.990021,
           "z": 0.0
         }
       },
-      "InteractableItem.bc5965f837740124ca696defdc30aec4": {
+      "InteractableItem.c0cddde8b68095d4cbe849f4d3f143e1": {
         "position": {
           "x": 0.111,
           "y": 0.57,
@@ -1369,26 +1418,26 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DraggableItem.ffd948427360fff419d586938134bd1d": {
+      "DraggableItem.51a35976ce880ef49872ac3ffbad941c": {
         "position": {
-          "x": 12.9897,
-          "y": 17.9641285,
-          "z": 47.18001
+          "x": 12.9895935,
+          "y": 17.9656982,
+          "z": 47.1818733
         },
         "rotation": {
-          "x": 0.0942327455,
-          "y": 0.2022478,
-          "z": 0.0069798287
+          "x": 0.225140035,
+          "y": 0.188680142,
+          "z": 0.0186935645
         }
       },
-      "SaveIsActive.18fd5f7af38000046823e6cb00ffae29": {
-        "Place2Way": true
+      "SaveIsActive.6bcdb7b1aa4600945a4fe912ee9c18b4": {
+        "Place2Way": false
       },
-      "InteractableItem.d0785a3824e76324989eaa7329e29f32": {
+      "InteractableItem.775b38b9aba548c4cb22a1eae675294b": {
         "position": {
-          "x": -0.06607038,
-          "y": 0.009415839,
-          "z": 0.0455686525
+          "x": -0.0661,
+          "y": 0.0124,
+          "z": 0.0404
         },
         "rotation": {
           "x": 90.0,
@@ -1400,18 +1449,10 @@
         "hotspotEnabled": true,
         "customData": {}
       },
-      "SaveIsActive.b0903192a2044254189d69688f7ce2b2": {
-        "Place1Way": true
+      "SaveIsActive.32f927a633d4f504ea2817dc4792c706": {
+        "Place1Way": false
       },
-      "DynamicObject.5316060a75deb684699a2eb7b3ab8882": {
-        "rotation": {
-          "x": 0.0,
-          "y": 180.0,
-          "z": 0.0
-        },
-        "isLocked": true
-      },
-      "DynamicObject.dfe45ee9c5041b7429a0fcc468f804bc": {
+      "DynamicObject.ec0cf4e62fdbcf4488171d026584f118": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -1420,19 +1461,19 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.f9ffb5da0a01935409f50e9126a098fa": {
+      "DraggableItem.e3c9cabc2d456644ca64bc5327d84591": {
         "position": {
-          "x": 15.7397614,
-          "y": 1.57737553,
-          "z": 31.8125019
+          "x": 15.7379913,
+          "y": 1.580095,
+          "z": 31.80829
         },
         "rotation": {
-          "x": 358.768921,
-          "y": 2.02617717,
-          "z": 359.6229
+          "x": 358.599457,
+          "y": 2.02019763,
+          "z": 359.55307
         }
       },
-      "DynamicObject.b9d00cb383711fa408869a05e3f130b6": {
+      "DynamicObject.27bc7a6bde6f69f4c8c80b78bd71bf8d": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -1441,43 +1482,43 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.2c6778d20d498774bacdb2c4d1d56561": {
+      "DraggableItem.d3dedd11fd89a73449c120cb44124b7a": {
         "position": {
-          "x": 17.290802,
-          "y": 1.56429935,
-          "z": 24.940012
+          "x": 17.2908325,
+          "y": 1.564301,
+          "z": 24.9400043
         },
         "rotation": {
-          "x": -7.569206E-07,
-          "y": 2.73207534E-05,
-          "z": 4.99453563E-06
+          "x": 0.000341928244,
+          "y": 2.73205387E-05,
+          "z": -7.2060735E-05
         }
       },
-      "DraggableItem.0e90a1659642d654e8328525ff365b2c": {
+      "DraggableItem.e05c4531246d1e24f96454ab3fd61d99": {
         "position": {
-          "x": -1.9810791,
-          "y": 7.65275335,
-          "z": 42.6411667
+          "x": -2.02796936,
+          "y": 7.664565,
+          "z": 42.611412
         },
         "rotation": {
-          "x": 8.058814,
-          "y": 340.768982,
-          "z": 356.643646
+          "x": 9.844699,
+          "y": 347.261475,
+          "z": 357.369
         }
       },
-      "DraggableItem.c263690ab2e72df4088fa7a4b6841bab": {
+      "DraggableItem.530f4e01faf4ce6408ae34603e959f62": {
         "position": {
-          "x": 12.9908142,
-          "y": 17.964304,
-          "z": 44.0600166
+          "x": 12.9908447,
+          "y": 17.96431,
+          "z": 44.05998
         },
         "rotation": {
-          "x": -9.672306E-05,
-          "y": 0.000215150678,
-          "z": 0.000308755465
+          "x": -0.00158823142,
+          "y": 0.000119521486,
+          "z": 0.0004914573
         }
       },
-      "DynamicObject.5e3fb34a5b1ae6841b750c66c26dd3bd": {
+      "DynamicObject.2fb46b5bfc72ae142b23afc26cc00215": {
         "rotation": {
           "x": 1.00179122E-05,
           "y": 0.0,
@@ -1491,14 +1532,14 @@
         "isOpened": false,
         "isLocked": true
       },
-      "KeycardPuzzle.ae6e9f37b3894ad499a0b4d70285c288": {
+      "KeycardPuzzle.3f8d68b3776e8404bab62a0ff4ef4b98": {
         "accessGranted": false
       },
-      "HintTrigger.bf7582f71ded0ef46adb23d511775f97": {
+      "HintTrigger.b139b3a09c727b04b916ec07d3f6c355": {
         "isTriggered": false,
         "isEventCalled": false
       },
-      "InteractableItem.d81f0352c259efc4ebf140a33811930d": {
+      "InteractableItem.d1ae9877bd285304a8c3fa3c9b77ec71": {
         "position": {
           "x": -0.77,
           "y": 0.89,
@@ -1516,11 +1557,11 @@
           "level": "red"
         }
       },
-      "InteractableItem.62ebca1fc6e0aa84c99192a551203540": {
+      "InteractableItem.9c1f765ea49eb7e468645f776a6d4306": {
         "position": {
           "x": -0.011,
-          "y": 0.00568,
-          "z": 0.047
+          "y": 0.0071,
+          "z": 0.0326
         },
         "rotation": {
           "x": 270.0,
@@ -1528,11 +1569,11 @@
           "z": 0.0
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.7bd34d4a2dc1f0d43b90103e7c9db4e9": {
+      "DynamicObject.5d05723e858d2d449a8f42916da10660": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -1541,11 +1582,11 @@
         "isOpened": false,
         "isLocked": false
       },
-      "InteractableItem.f4f7c443b2429b84c997510e4a20f956": {
+      "InteractableItem.47c33580a72c9df459af60d10884dff8": {
         "position": {
-          "x": -0.025,
-          "y": 0.0837,
-          "z": 0.0542
+          "x": -0.023,
+          "y": 0.2046,
+          "z": 0.0511
         },
         "rotation": {
           "x": 1.78974145E-13,
@@ -1553,11 +1594,14 @@
           "z": 9.696957E-14
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DynamicObject.db9a737675f203e478033fa2283bf162": {
+      "SaveIsActive.5281e564f9a2792449fd16e7ef7534ad": {
+        "Place3MainZombie": false
+      },
+      "DynamicObject.52c6ad990b8182240849a0b162fe9b9f": {
         "rotation": {
           "x": 0.0,
           "y": 90.0,
@@ -1565,7 +1609,7 @@
         },
         "isLocked": false
       },
-      "DynamicObject.78b857b6b70abcd4ab2a8159ca935fcd": {
+      "DynamicObject.eea76c5162cb7724a89a6e7790d6c2ce": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -1574,7 +1618,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.067ee3a199753c3478c7be72ad710619": {
+      "DynamicObject.baa7d04c0b7c2ac409dcc9e44c44a7f9": {
         "localPosition": {
           "x": 0.2453,
           "y": 0.7366,
@@ -1583,7 +1627,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DynamicObject.2694b95e186be114aa37ff53b5545e28": {
+      "DynamicObject.832a8b91a9368cf4c992cd875914987d": {
         "rotation": {
           "x": 8.14221737E-13,
           "y": 1.36603767E-05,
@@ -1597,25 +1641,25 @@
         "isOpened": true,
         "isLocked": false
       },
-      "InteractableItem.e9f819291e8ecb74aa8440ab50c24b38": {
+      "InteractableItem.4a89b59b32e9fd3499fa0694901d677e": {
         "position": {
           "x": 25.333,
           "y": 17.748,
           "z": 50.251
         },
         "rotation": {
-          "x": 284.999969,
+          "x": 285.0,
           "y": 0.0,
           "z": 270.0
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {
-          "solved": true
+          "solved": false
         }
       },
-      "DynamicObject.04e93666938bfd04aba6047ea72e1b5a": {
+      "DynamicObject.e18e1263b6d898a4c8bb87b0a3ab5289": {
         "rotation": {
           "x": 1.00179122E-05,
           "y": 180.0,
@@ -1629,7 +1673,7 @@
         "isOpened": false,
         "isLocked": true
       },
-      "InteractableItem.12bd30b82507c6749b3f3bdf517e4b40": {
+      "InteractableItem.128eef82e9ca35241a76b6a82a9d21a6": {
         "position": {
           "x": 0.0135,
           "y": 0.0111,
@@ -1641,23 +1685,23 @@
           "z": -7.513438E-06
         },
         "quantity": 1,
-        "enabledState": false,
+        "enabledState": true,
         "hotspotEnabled": true,
         "customData": {}
       },
-      "DraggableItem.b6c73cdc2957bab47ad7e91952b69e44": {
+      "DraggableItem.49f92b29923e1514ea3c225779d02c54": {
         "position": {
-          "x": 13.2889977,
+          "x": 13.2889986,
           "y": 1.1411531,
           "z": 64.71
         },
         "rotation": {
-          "x": -7.549805E-06,
-          "y": -7.683231E-06,
-          "z": -2.17882643E-06
+          "x": -6.2822096E-06,
+          "y": -3.91579533E-06,
+          "z": 1.1073372E-06
         }
       },
-      "DynamicObject.9ed2e5c4b9e4c0a4fb0d8c3199a32ff9": {
+      "DynamicObject.0cda6cf3d5918b64096517bc437212bf": {
         "localPosition": {
           "x": 5.62378459E-17,
           "y": 0.326617122,
@@ -1666,43 +1710,46 @@
         "isOpened": false,
         "isLocked": false
       },
-      "DraggableItem.eedf9a2309546c24d94c41900503c88a": {
+      "DraggableItem.a45a0149712ec8546bff9d45cb79b94e": {
         "position": {
-          "x": -13.6191635,
+          "x": -13.619133,
           "y": 17.9642982,
-          "z": 63.34003
+          "z": 63.3400154
         },
         "rotation": {
-          "x": -9.67411751E-08,
-          "y": -2.14698421E-16,
-          "z": 2.54313932E-07
+          "x": -7.765696E-08,
+          "y": -9.804608E-17,
+          "z": 1.44677983E-07
         }
       },
-      "DraggableItem.509079651278d9949ae1664dc0383a8f": {
+      "DraggableItem.4d6e5530c1cf2a945b5fa9f182258539": {
         "position": {
-          "x": 3.53422713,
+          "x": 3.53422928,
           "y": 1.14115286,
           "z": 63.1
         },
         "rotation": {
-          "x": -6.073986E-06,
-          "y": -6.231739E-05,
-          "z": -2.35700168E-06
+          "x": -4.50759E-06,
+          "y": 9.890953E-06,
+          "z": 7.04619E-07
         }
       },
-      "DraggableItem.db9809c931eab8b46bbe9607ba0c5806": {
+      "SaveIsActive.a3e43a592173d564baf9dd8d330330ef": {
+        "Place3Trigger": true
+      },
+      "DraggableItem.89df2874686780142996646b979f7384": {
         "position": {
-          "x": 14.8908386,
+          "x": 14.8908691,
           "y": 17.9643021,
-          "z": 45.6600151
+          "z": 45.66
         },
         "rotation": {
-          "x": -4.15761724E-06,
-          "y": 3.70867277E-14,
-          "z": -1.02217825E-06
+          "x": -4.22574749E-06,
+          "y": -1.00615579E-14,
+          "z": 2.72843948E-07
         }
       },
-      "DynamicObject.01c792fc51090f641a64f10a48a38c94": {
+      "DynamicObject.896c5e20c1a65144991d0bdc533b8c0c": {
         "rotation": {
           "x": 1.00179122E-05,
           "y": 0.0,
@@ -1716,19 +1763,19 @@
         "isOpened": false,
         "isLocked": true
       },
-      "DraggableItem.6cffbeae27a1ef5469bb5016e34729dd": {
+      "DraggableItem.495d952412bad4e45bcbacfbcec34e96": {
         "position": {
-          "x": 7.49427032,
+          "x": 7.494301,
           "y": 7.14114952,
-          "z": 80.60999
+          "z": 80.60998
         },
         "rotation": {
-          "x": 6.821391E-08,
-          "y": 1.57222643E-16,
-          "z": 2.64116039E-07
+          "x": -9.911404E-08,
+          "y": -1.27633373E-16,
+          "z": 1.4756445E-07
         }
       },
-      "DynamicObject.b4b5b428c7484ee47bfb97cfcd5cac98": {
+      "DynamicObject.78fe2b2804b55a94abb5bd5ffba2e074": {
         "localPosition": {
           "x": -0.245307744,
           "y": 0.736628,
@@ -1737,7 +1784,7 @@
         "isOpened": false,
         "isLocked": false
       },
-      "InteractableItem.fece4e43621106e46bbdfe45ae4f6524": {
+      "InteractableItem.964bfb415bdac64488db5f313855ef31": {
         "position": {
           "x": 43.746,
           "y": 1.869,
