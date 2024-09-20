@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UHFPS.Runtime;
@@ -5,13 +6,28 @@ using UnityEngine;
 
 public class OpenDoorWithTriger : MonoBehaviour
 {
+    [Serializable]
+    public enum DoorType
+    {
+        locked,
+        noremal
+    }
+
+    [SerializeField] private DoorType type = DoorType.locked;
     [SerializeField] private DynamicObject dynamicObject;
+
     private bool isLocked = true;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(dynamicObject.dynamicStatus);
-        dynamicObject.dynamicStatus = DynamicObject.DynamicStatus.Normal;
-        Debug.Log(dynamicObject.dynamicStatus);
+        if (type == DoorType.locked)
+        {
+            isLocked = false;
+            dynamicObject.SetLockedStatus(isLocked);
+        }
+        else
+        {
+            dynamicObject.dynamicStatus = DynamicObject.DynamicStatus.Normal;
+        }
     }
 }
